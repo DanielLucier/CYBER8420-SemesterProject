@@ -1,6 +1,9 @@
 Team Name: Cyber Warden
-Topic: bitwarden Browser Extension
-https://github.com/bitwarden/browser
+
+Topic: Bitwarden Browser Extension
+
+URL: https://github.com/bitwarden/browser
+
 
 Project Proposal: 2-3 page report that describes the following:
 
