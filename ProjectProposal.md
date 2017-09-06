@@ -7,9 +7,21 @@ URL: https://github.com/bitwarden/browser
 
 Project Proposal: 2-3 page report that describes the following:
 
-1. Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)
+1. Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.) 
+
+What is it? "desktop browser extension vault" A browser extnesion for password management.
+Contirbutors:
+Activity:
+Use:
+Popularity:
+Languages used:
+Platform:
+Documentation Sources:
 
 2. Discuss License, procedures for making contributions, and contributor agreements
+License -- GNU GPL v3.0
+Making contributions -- CONTRIBUTING.md / SECURITY.md
+
 3. Security related history (E.g. known vulnerabilities)
 4. Functional security requirements for the software
 5. Your motivation for selecting this project
