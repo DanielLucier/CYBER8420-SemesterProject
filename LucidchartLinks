@@ -1,6 +1,9 @@
 Links to our assurance cases developed in Lucidchart:
 
-Dan -- 
-Glenn -- 
-Kero - https://www.lucidchart.com/invitations/accept/713a1bfa-c891-4611-b985-215a5c378f9e
-Chet -- 
+The team has created an Assurance Chart and was distributed through the whole team to edit it. 
+https://www.lucidchart.com/invitations/accept/713a1bfa-c891-4611-b985-215a5c378f9e
+  Claims:
+    Keycloack is acceptably secure and should be implmented in KeroComputing Inc.
+    Keycloack has an acceptable password policy implmentation.
+    Keycloack uses no reported known vulnerabilities.
+    Keycloack uses industry standard encryption.
