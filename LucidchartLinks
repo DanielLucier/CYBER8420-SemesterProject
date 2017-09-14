@@ -9,4 +9,4 @@ Top Level Claims:
     Keycloak has an acceptable password policy implmentation.
     Keycloak uses no reported known vulnerabilities.
     Stored user credentials are protected from unauthorized access.
-    User input is protected against malicious injection.
+    User input is protected against malicious injection. (Keycloak is protected against malicious user input)
