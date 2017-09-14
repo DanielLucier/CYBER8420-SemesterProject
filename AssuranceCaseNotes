@@ -5,8 +5,10 @@ The team has created an Assurance Chart and was distributed through the whole te
 https://www.lucidchart.com/invitations/accept/713a1bfa-c891-4611-b985-215a5c378f9e
  
 Top Level Claims:
-    Keycloak is acceptably secure and should be implmented in KeroComputing Inc.
-    Keycloak has an acceptable password policy implmentation.
-    Keycloak uses no reported known vulnerabilities.
-    Stored user credentials are protected from unauthorized access.
-    User input is protected against malicious injection. (Keycloak is protected against malicious user input)
+  
+    Keycloak has an acceptable password policy implementation. (Kero)
+    Keycloak is adequately protected against known vulnerabilities.
+    Stored user credentials are protected from unauthorized access. (Dan)
+    Keycloak is protected against malicious user input. (Glenn)
+    
+    Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
