@@ -10,9 +10,11 @@ Top Level Claims:
     Stored user credentials are protected from unauthorized access. (Dan)
     Keycloak is protected against malicious user input. (Glenn)
     
+    
     Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
 
     Ideas for addl' claims:
      -- Keycloak is adequately protected against known vulnerabilities
      -- something with single sign on
      -- when connected with 3rd party applications -- channels secure
+     --access control to server management processes
