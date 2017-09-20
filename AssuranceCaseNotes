@@ -11,10 +11,9 @@ Top Level Claims:
     2. Stored user credentials are protected from unauthorized access. (Dan)
     3. Keycloak is protected against malicious user input. (Glenn)
     4. Keycloak minimizes non-administrative users access to the server admin console. (Chet) 
-    5. All Keycloak security vulnerabilities have been sufficiently mitigated. (Kero)
-    Keycloak is protected against a brute force attack.
+    5. Keycloak is protected against a brute force attack. (Kero)
     
-    Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
+    -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
 
     Ideas for addl' claims:
      -- Keycloak is adequately protected against known vulnerabilities
