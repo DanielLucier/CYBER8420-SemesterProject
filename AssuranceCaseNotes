@@ -7,11 +7,13 @@ https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2c
 
 Top Level Claims:
   
-    1. Keycloak has an acceptable password policy implementation. 
+    1. Keycloak has an acceptable password policy implementation.
+    User credentials are transmitted to third party applications over secure channels. (Dan)
     2. Stored user credentials are protected from unauthorized access. (Dan)
     3. Keycloak is protected against malicious user input. (Glenn)
     4. Administrative access to the server management is controlled. (Chet) 
     5. All Keycloak security vulnerabilities have been sufficiently mitigated. (Kero)
+    Keycloak is protected against a brute force attack.
     
     Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
 
