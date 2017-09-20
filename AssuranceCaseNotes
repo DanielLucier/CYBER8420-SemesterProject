@@ -9,7 +9,7 @@ https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2c
 
 Top Level Claims:
   
-    1. Keycloak has an acceptable password policy implementation. (Kero)
+    1. Keycloak has an acceptable password policy implementation. 
     2. Stored user credentials are protected from unauthorized access. (Dan)
     3. Keycloak is protected against malicious user input. (Glenn)
     4. Administrative access to the server management is controlled. (Chet) 
