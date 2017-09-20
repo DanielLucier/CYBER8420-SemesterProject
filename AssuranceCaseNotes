@@ -10,7 +10,7 @@ Top Level Claims:
     2. Stored user credentials are protected from unauthorized access. (Dan)
     3. Keycloak is protected against malicious user input. (Glenn)
     4. Administrative access to the server management is controlled. (Chet) 
-    5. All Keycloak security vulnerabilities are sufficiently mitigated.
+    5. All Keycloak security vulnerabilities have been sufficiently mitigated. (Kero)
     
     Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
 
