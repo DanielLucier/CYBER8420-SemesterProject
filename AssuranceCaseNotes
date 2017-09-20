@@ -9,7 +9,7 @@ Top Level Claims:
     1. Keycloak has an acceptable password policy implementation. (Kero)
     2. Stored user credentials are protected from unauthorized access. (Dan)
     3. Keycloak is protected against malicious user input. (Glenn)
-    4. Administrator access to the server management is controlled. (Chet) 
+    4. Administrative access to the server management is controlled. (Chet) 
     5. 
     
     Chet -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
