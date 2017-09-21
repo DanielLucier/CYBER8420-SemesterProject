@@ -1,14 +1,14 @@
-Links to our assurance cases developed in Lucidchart:
+CyberWardens has created an Assurance Chart through Lucidchart. This chart was distributed to the entire team. The chart contains 5 tabs
+(one tab for each assurance case).
 
-The team has created an Assurance Chart and was distributed through the whole team to edit it. 
-
-Updated Link:
+Link to Lucidchart:
 https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2cc9
 
 Top Level Claims:
   
     1. User credentials are transmitted to third party applications over secure channels. (Dan)
-      Claim C1: An attacker will not be able to obtain user credentials by eavesdropping on communication channels between Keycloak and third-party applications.
+      Claim C1: An attacker will not be able to obtain user credentials by eavesdropping on communication channels between Keycloak 
+      		and third-party applications.
 	      R1.1: Unless the data is transmitted across the channels in plain text format.
 	      C1.1: Data transmission across all channels is encrypted.
 	      E1.1: Packet transfer analysis
@@ -25,9 +25,10 @@ Top Level Claims:
 	      E2.1: Security Policy
 	
     2. Stored user credentials are protected from unauthorized access. (Dan)
-      Claim C1: An attacker with a file containing usernames and passwords will not be able to use the credentials to log-in to applications.
+      Claim C1: An attacker with a file containing usernames and passwords will not be able to use the credentials to log-in 
+      		to applications.
         R1.1: Unless stored passwords are not encrypted.
-        C1.1:  Stored passwords are encrypted.
+        C1.1: Stored passwords are encrypted.
         E1.1: Visual inspection
           U1.1.1: Unless a weak encryption algorithm is used
           C1.1.1: An industry standard encryption algorithm is used.
@@ -47,10 +48,4 @@ Top Level Claims:
     4. Keycloak minimizes non-administrative users access to the server admin console. (Chet) 
     5. Keycloak is protected against a brute force attack. (Kero)
     
-    -- We are trying to come up with an assurance claim that addresses the server side of the application. Any ideas??
-
-    Ideas for addl' claims:
-     -- Keycloak is adequately protected against known vulnerabilities
-     -- something with single sign on
-     -- when connected with 3rd party applications -- channels secure
-     -- access control to server management processes
+    
