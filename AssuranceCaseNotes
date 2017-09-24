@@ -7,43 +7,7 @@ https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2c
 Top Level Claims:
   
     1. User credentials are transmitted to third party applications over secure channels. (Dan)
-      Claim C1: An attacker will not be able to obtain user credentials by eavesdropping on communication channels between Keycloak 
-      		and third-party applications.
-	      R1.1: Unless the data is transmitted across the channels in plain text format.
-	      C1.1: Data transmission across all channels is encrypted.
-	      E1.1: Packet transfer analysis
-		      U1.1.1: Unless a weak encryption algorithm is used.
-		      C1.1.1: An industry standard encryption algorithm is used.
-		      E1.1.1: NIST Guideline ???
-		      U1.1.2: Unless a proxy is used that doesn’t encrypt data transmission.		
-		      C1.1.2: Keycloak does not allow proxy configuration
-		      E1.1.2: Network Policy Documentation analysis
-
-      Claim C2: Keycloak only transmits data to approved third-party applications.
-	      R2.1: Unless a user adds new approved applications
-	      C2.1: Only an admin can add new approvals 
-	      E2.1: Security Policy
-	
     2. Stored user credentials are protected from unauthorized access. (Dan)
-      Claim C1: An attacker with a file containing usernames and passwords will not be able to use the credentials to log-in 
-      		to applications.
-        R1.1: Unless stored passwords are not encrypted.
-        C1.1: Stored passwords are encrypted.
-        E1.1: Visual inspection
-          U1.1.1: Unless a weak encryption algorithm is used
-          C1.1.1: An industry standard encryption algorithm is used.
-          E1.1.1: NIST Guideline ????
-          U1.1.2: Unless the data is obfuscated
-		      C1.1.2: Data is not obfuscated
-          E1.1.2: Code Review Analysis
-
-        R1.2: Unless weak passwords can be cracked by a dictionary attack.
-	        C1.2: A salt is added to passwords.
-	        E1.2: Code review analysis
-		        U1.2.1: Unless the salt is easily cracked (i.e.: a single ASCII character)
-		        C1.2.1: A randomly selected combination of ASCII characters is used as the salt.
-		        E1.1.2: Code review analysis
-
     3. Keycloak is protected against malicious user input. (Glenn)
     4. Keycloak minimizes non-administrative users access to the server admin console. (Chet) 
     5. Keycloak is protected against a brute force attack. (Kero)
