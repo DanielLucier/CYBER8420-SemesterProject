@@ -1,4 +1,8 @@
-Top Level Claims:
+CyberWardens has created a misuse case for each top level claim identified through the Assurance Cases. A diagram for each misuse case was developed in Lucidchart. The chart contains 5 tabs (one tab for each misuse case).
+
+Link to Lucidchart: TBD...
+
+Top Level Claims Developed Into a Misuse Case:
 
 1. User credentials are transmitted to third party applications over secure channels. (Glenn)
 2. Stored user credentials are protected from unauthorized access. (Dan)
