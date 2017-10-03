@@ -1,6 +1,6 @@
 CyberWardens has created a misuse case for each top level claim identified through the Assurance Cases. A diagram for each misuse case was developed in Lucidchart. The chart contains 5 tabs (one tab for each misuse case).
 
-Link to Lucidchart: TBD...
+Link to Lucidchart: https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a
 
 Top Level Claims Developed Into a Misuse Case:
 
