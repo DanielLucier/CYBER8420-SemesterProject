@@ -1,4 +1,4 @@
-CyberWardens has created a misuse case for each top level claim identified through the Assurance Cases. A diagram for each misuse case was developed in Lucidchart. The chart contains 5 tabs (one tab for each misuse case).
+CyberWardens has created misuses cases to address the top level claim identified through the Assurance Cases exercise. A diagram for each misuse case was developed in Lucidchart. The chart contains 4 tabs (see below for description of tabs).
 
 Link to Lucidchart: https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a
 
