@@ -6,5 +6,5 @@ Top Level Claims Developed Into a Misuse Case:
 
 1. User credentials are transmitted to third party applications over secure channels. (Glenn)
 2. Stored user credentials are protected from unauthorized access. (Dan)
-3. Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak. (Glenn) & Keycloak minimizes non-administrative users access to the server admin console. (Chet) 
+3. Keycloak minimizes non-administrative user access to the server admin console and prevents users from acting maliciously by sanitizing input during new user creation. (Chet & Glenn) 
 4. Keycloak is protected against brute force attacks. (Kero)
