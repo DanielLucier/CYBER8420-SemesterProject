@@ -1,7 +1,5 @@
 CyberWardens has created an Assurance Chart through Lucidchart. This
-chart was distributed to the entire team. The chart contains 5 tabs
-
-(one tab for each assurance case).
+chart was distributed to the entire team. The chart contains 5 tabs (one tab for each assurance case).
 
 **Link to Lucidchart:**
 
