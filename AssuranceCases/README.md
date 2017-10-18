@@ -3,11 +3,11 @@ chart was distributed to the entire team. The chart contains 5 tabs
 
 (one tab for each assurance case).
 
-Link to Lucidchart:
+**Link to Lucidchart:**
 
 https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2cc9
 
-Top Level Claims:
+**Top Level Claims:**
 
 1\. User credentials are transmitted to third party applications over
 secure channels. (Dan)
