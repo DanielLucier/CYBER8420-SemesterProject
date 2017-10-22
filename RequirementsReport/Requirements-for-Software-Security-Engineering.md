@@ -28,7 +28,7 @@ After developing assurance cases for each assurance claim, Cyber Wardens develop
 <br />. A salt is added to passwords prior to encryption.
 <br />&emsp;. The salt is a random combination of ASCII characters.
 <br />. A post-quantum cryptography algorithm is used to encrypt passwords.
-<br />. MisUse3--placeholder
+<br />. Restricting non admin users from accessesing administrative tools
 <br />. Keycloak provides the ability to enforce password complexity and lockout parameters.
 
 Keycloak Documentation Review
