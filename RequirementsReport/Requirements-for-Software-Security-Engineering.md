@@ -36,5 +36,11 @@ Keycloak Documentation Review
 
 An important aspect of all applications that can transmit data between client and server is the encryption of the data. To this end using a SSL certification on the hosted keycloak website is essential. To mitigate the possibility of user’s access tokens from being stolen due to a packet sniffer, Keycloak offers three modes for SSL/HTTPS. The SSL mode defines the requirements for interacting with Keycloak. The Three modes are: external requests, none, and all. External requests require users to obtain a static IP address (such as IP addresses on the network) to access the Keycloak console. None mode turns off the SSL requirements which would open the network traffic to vulnerabilities. Lastly the mode all requires SSL for all IP addresses, whether internal or external.
 
+Place holder for 2
+
+place holder for 3
+
+With all applications that are exposed to the outside world, password guessing is an important issue. If an attacker can guess the admins password they can essentially bring down the entire company. This could be done by bringing down the servers, installing ransomware, or even reading private emails and attempting to black mail the company’s CEO. To prevent this software should be able to enforce minimum password requirements and max login failures. Keycloak is no exception to these guidelines. Keycloak allows for admins to enforce a password policy on its users. Some of the policies include: digits, lower case, uppercase, special chars, and for a regex pattern. On top of password policies, Keycloak offers the ability to configure the max login failures. After a certain amount of failures, the user will need to wait after a configurable amount of time before attempting again. 
+
 Security Related Configuration and Installation
 -----------------------------
