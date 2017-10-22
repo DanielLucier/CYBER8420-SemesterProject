@@ -29,7 +29,7 @@ After developing assurance cases for each assurance claim, Cyber Wardens develop
 <br />&emsp;. The salt is a random combination of ASCII characters.
 <br />. A post-quantum cryptography algorithm is used to encrypt passwords.
 <br />. MisUse3--placeholder
-<br />. MisUse4--placeholder
+<br />. Keycloak provides the ability to enforce password complexity and lockout parameters.
 
 Keycloak Documentation Review
 -----------------------------
