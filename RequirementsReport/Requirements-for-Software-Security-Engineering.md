@@ -22,10 +22,13 @@ Security Requirements
 ---------------------
 After developing assurance claims, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
 
-. "MisUse1--placeholder"
-. "MisUse2--placeholder"
-. "MisUse3--placeholder"
-. "MisUse4--placeholder"
+. MisUse1--placeholder
+<br />. Passwords are stored in the application as ciphertext.
+<br />. A salt is added to passwords prior to encryption.
+<br />&emsp;. The salt is a random combination of ASCII characters.
+<br />. A post-quantum cryptography algorithm is used to encrypt passwords.
+<br />. MisUse3--placeholder
+<br />. MisUse4--placeholder
 
 Keycloak Documentation Review
 -----------------------------
