@@ -4,7 +4,7 @@ Link to Lucidchart: https://www.lucidchart.com/invitations/accept/8f828c56-45d6-
 
 Misuse Cases and corresponding Assurance Case/s:
 
-Misues Case 1 elaborates on Assurance Claim 1 - User credentials are transmitted to third party applications over secure channels. (Glenn)
+Misuse Case 1 elaborates on Assurance Claim 1 - User credentials are transmitted to third party applications over secure channels. (Glenn)
 
 Misuse Case 2 elaborates on Assurance Case 2 - Stored user credentials are protected from unauthorized access. (Dan)
 
