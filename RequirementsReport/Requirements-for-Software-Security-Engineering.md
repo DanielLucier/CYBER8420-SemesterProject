@@ -23,7 +23,7 @@ Security Requirements
 After developing assurance cases for each assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
 
 <br />. The communication that is sent over the network/internet can be encrypted.
-<br />.&emsp;. The communication is encrypted supports modern cryptology along with SSL.
+<br />&emsp;. The communication is encrypted supports modern cryptology along with SSL.
 <br />. Passwords are stored in the application as ciphertext.
 <br />. A salt is added to passwords prior to encryption.
 <br />&emsp;. The salt is a random combination of ASCII characters.
