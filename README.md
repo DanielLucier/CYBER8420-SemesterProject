@@ -1,7 +1,7 @@
 # CYBER8420-SemesterProject
 Fall 2017 - UNO Cyber 8420 - Semester Team Project
 
-Refer to the <strong>Project Kanban Board</strong> for an overview of tasks.
+Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/projects/1">Project Kanban Board</a></strong> for an overview of tasks.
 
 <strong>PreProject_Decisions</strong> contains decisions made as a team prior to beginning the project.
 
