@@ -30,6 +30,7 @@ After developing assurance cases for each assurance claim, Cyber Wardens develop
   <li>The salt is a random combination of ASCII characters.</li>
   <li>A post-quantum cryptography algorithm is used to encrypt passwords.</li>
   <li>Restrict non-admin users from accessing administrator tools.</li>
+  <li>Sanitize all user input.</li>
   <li>Set and enforce password complexity policies.</li>
   <li>Set and enforce account lockout parameters.</li>
 </ul>
