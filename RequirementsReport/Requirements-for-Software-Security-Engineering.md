@@ -22,15 +22,17 @@ Security Requirements
 ---------------------
 After developing assurance cases for each assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
 
-<br />. The communication that is sent over the network/internet is encrypted.
-<br />&emsp;. SSL encryption is supported.
-<br />. Passwords are stored in the application as ciphertext.
-<br />. A salt is added to passwords prior to encryption.
-<br />&emsp;. The salt is a random combination of ASCII characters.
-<br />. A post-quantum cryptography algorithm is used to encrypt passwords.
-<br />. Restrict non-admin users from accessing administrator tools.
-<br />. Set and enforce password complexity policies.
-<br />. Set and enforce account lockout parameters.
+<ul>
+  <li>The communication that is sent over the network/internet is encrypted.</li>
+  <li>SSL encryption is supported.</li>
+  <li>Passwords are stored in the application as ciphertext.</li>
+  <li>A salt is added to passwords prior to encryption.</li>
+  <li>The salt is a random combination of ASCII characters.</li>
+  <li>A post-quantum cryptography algorithm is used to encrypt passwords.</li>
+  <li>Restrict non-admin users from accessing administrator tools.</li>
+  <li>Set and enforce password complexity policies.</li>
+  <li>Set and enforce account lockout parameters.</li>
+</ul>
 
 Keycloak Documentation Review
 -----------------------------
