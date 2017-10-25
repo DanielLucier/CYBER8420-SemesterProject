@@ -47,14 +47,13 @@ Keycloak documentation can be found at: http://www.keycloak.org/documentation.ht
 
 &emsp;With all applications that are exposed to the outside world, password guessing is an important issue. If an attacker can guess the admins password they can essentially bring down the entire company. This could be done by bringing down the servers, installing ransomware, or even reading private emails and attempting to black mail the company’s CEO. To prevent this, software should be able to enforce minimum password requirements and max login failures. Keycloak is no exception to these guidelines. Keycloak allows for admins to enforce a password policy on its users. Some of the policies include: digits, lower case, uppercase, special chars, and a regex pattern. On top of password policies, Keycloak offers the ability to configure the max login failures. After a certain amount of failures, the user will need to wait until after a configurable amount of time before attempting again. 
 
-Security Related Configuration and Installation
+Configuration and Installation Documentation Review
 -----------------------------
-&emsp;Keycloak is not setup by default to handle SSL/HTTPS. It either needs to be enabled through the Keycloak server itself or through a reverse proxy that is configured with the Keycloak server. Keycloak can be configured based on three different modes.  By default, in the first mode, Keycloack can be run without SSL as long as only private IP addresses are utilized. Therefore, if an external request occurs it would error out since it only accepts connection from private IP addresses. To setup SSL/HTTPS for the Keycloak server it would involve: 
+&emsp;As noted previously Keycloak uses SSL/HTTPS to encrypt the traffic.  However, Keycloak is not setup by default to handle SSL/HTTPS. It either needs to be enabled through the Keycloak server itself or through a reverse proxy that is configured to force traffic through the Keycloak server. Keycloak SSL/HTTPS can be configured based on three different modes.  By default, in the first mode, Keycloack can be run without SSL as long as only private IP addresses are utilized. Therefore, if an external request occurs it would error out since it only accepts connection from private IP addresses. To setup SSL/HTTPS for the Keycloak server it would involve: 
 <ul>
    <li> Generating a keystore that would contain the private key along with the certificate for SSL/HTTP traffic. </li>
    <li> Configuring the Keycloak server to utilize the set certificate and keypair.</li>
 </ul>
-
 
 
 
