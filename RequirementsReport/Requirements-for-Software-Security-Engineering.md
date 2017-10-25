@@ -49,10 +49,10 @@ Keycloak documentation can be found at: http://www.keycloak.org/documentation.ht
 
 Security Related Configuration and Installation
 -----------------------------
-&emsp;Keycloak by default is not setup by default to handle SSL/HTTPS. It either needs to be enabled through Keycloak server itself or through a reverse proxy that is set in fron of the Keycloak server. Keycloak could be configured based on three different modes. First mode, by default Keycloack it could be ran without SSL as long as only private IP addresses are utilized. Therefore, if an external request occurs it would error out since it only accepts connection from private IP addresses. To setup SSL/HTTPS for the Keycloak server it would involve: 
+&emsp;Keycloak is not setup by default to handle SSL/HTTPS. It either needs to be enabled through the Keycloak server itself or through a reverse proxy that is configured with the Keycloak server. Keycloak can be configured based on three different modes.  By default, in the first mode, Keycloack can be run without SSL as long as only private IP addresses are utilized. Therefore, if an external request occurs it would error out since it only accepts connection from private IP addresses. To setup SSL/HTTPS for the Keycloak server it would involve: 
 <ul>
-   <li> Generate a keystore that would contain the private key along with the certificate for SSL/HTTP traffic. </li>
-   <li> Configure Keycloak server to utilize the set certificate and keypair.</li>
+   <li> Generating a keystore that would contain the private key along with the certificate for SSL/HTTP traffic. </li>
+   <li> Configuring the Keycloak server to utilize the set certificate and keypair.</li>
 </ul>
 
 
