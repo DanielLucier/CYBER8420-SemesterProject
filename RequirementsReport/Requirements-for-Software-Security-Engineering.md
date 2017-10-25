@@ -54,3 +54,12 @@ Security Related Configuration and Installation
    <li> Generate a keystore that would contain the private key along with the certificate for SSL/HTTP traffic. </li>
    <li> Configure Keycloak server to utilize the set certificate and keypair.</li>
 </ul>
+
+
+
+
+
+
+
+
+&emsp;Password bruteforce attack protection, is enabled through the console 'kero' will write more here later. 
