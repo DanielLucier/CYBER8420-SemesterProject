@@ -62,10 +62,4 @@ Configuration and Installation Documentation Review
    <li> Configuring the Keycloak server to utilize the set certificate and keypair.</li>
 </ul>
 
-
-
-
-
-
-
-&emsp;Password bruteforce attack protection, is enabled through the console 'kero' will write more here later. 
+&emsp; The main goal of utilizing Keycloak is to authenticate through multiple platforms using single-sign on. One of the major security risks is if the password was compromsided. If a hacker can guess the password using a simple brute-force attack then it would be gameover for an oranization. Therefore, one of the security features that could be enabled is the bruteforce detection which is noted in the documentation under section 3.19 'Threat Model Mitigation'. This feature, allows password lockouts and quick login protection (protects against bruteforcing scripts which would also generate alerts to the adminstrators. Also implementing proper password complexity polices which could be setup through Keyclaok Administration console, would help mitigate the potential risk of password bruteforce attacks. 
