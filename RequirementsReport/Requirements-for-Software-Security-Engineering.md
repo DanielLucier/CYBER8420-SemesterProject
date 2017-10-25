@@ -37,6 +37,7 @@ After developing assurance cases for each top level assurance claim, Cyber Warde
 
 Keycloak Documentation Review
 -----------------------------
+Keycloak documentation can be found at: http://www.keycloak.org/documentation.html
 
 &emsp;An important aspect of all applications that can transmit data between client and server is the encryption of the data. To this end, SSL certification on the hosted Keycloak website is essential. To mitigate the possibility of user’s access tokens from being stolen due to a packet sniffer, Keycloak offers three modes for SSL/HTTPS. The SSL mode defines the requirements for interacting with Keycloak. The three modes are: external requests, none, and all. External requests require users to obtain a static IP address (such as IP addresses on the network) to access the Keycloak console. None mode turns off the SSL requirements which could open the network traffic to vulnerabilities. Lastly, all mode requires SSL for all IP addresses, whether internal or external.
 
