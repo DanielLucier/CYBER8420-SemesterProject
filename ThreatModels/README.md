@@ -3,7 +3,7 @@ Using Microsoft Threat Modeling Tool 2016 (TMT 2016), Cyber Wardens developed Le
 Identify Mitigation Strategies
 ------------------------------
 
-<strong>Third Party Applications to/from Keycloak</strong>: 1 - 11, 40 - 42 -- Person responsible: ??
+<strong>Third Party Applications to/from Keycloak</strong>: 1 - 11, 40 - 42 -- Person responsible: Kero
 <br /><strong>End User to/from Keycloak</strong>: 12 - 22, 37 - 39 -- Person Responsible: Dan
 <br /><strong>LDAP/Active Directory to/from Keycloak</strong>: 23 - 36 -- Person Responsible: Chet
 <br /><strong>Client Adapters to/from Keycloak</strong>: 43 - 53, 71 - 73 -- Person Responsible: ??
