@@ -291,41 +291,49 @@ Interaction: JDBC Query -- Database to Keycloak
 Category:	Spoofing
 Description:	Database may be spoofed by an attacker and this may lead to data being written to the attacker's target instead of Database. Consider using a standard authentication mechanism to identify the destination data store.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Using authentication based on key exchange </strong>
   
 55. Potential Excessive Resource Consumption for Keycloak or Database  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	Does Keycloak or Database take explicit steps to control resource consumption? Resource consumption attacks can be hard to deal with, and there are times that it makes sense to let the OS do the job. Be careful that your resource requests don't deadlock, and that they do timeout.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Configuration management on the data store to set timeout </strong>
   
 56. Spoofing the Keycloak Process  [State: Not Started]  [Priority: High]  
 Category:	Spoofing
 Description:	Keycloak may be spoofed by an attacker and this may lead to unauthorized access to Database. Consider using a standard authentication mechanism to identify the source process.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> using authentication based on key exchange </strong>
   
 57. The Database Data Store Could Be Corrupted  [State: Not Started]  [Priority: High]  
 Category:	Tampering
 Description:	Data flowing across JDBC Query may be tampered with by an attacker. This may lead to corruption of Database. Ensure the integrity of the data flow to the data store.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Normalization before being set along with authentication </strong>
   
 58. Data Store Denies Database Potentially Writing Data  [State: Not Started]  [Priority: High]  
 Category:	Repudiation
 Description:	Database claims that it did not write data received from an entity on the other side of the trust boundary. Consider using logging or auditing to record the source, time, and summary of the received data.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> logging on both process side and data store side </strong>
   
 59. Data Flow Sniffing  [State: Not Started]  [Priority: High]  
 Category:	Information Disclosure
 Description:	Data flowing across JDBC Query may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> using encryption with authentication </strong>
   
 60. Data Flow JDBC Query Is Potentially Interrupted  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent interrupts data flowing across a trust boundary in either direction.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Handling all possible exceptions in a manner which prevents application down time </strong>
   
 61. Data Store Inaccessible  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent prevents access to a data store on the other side of the trust boundary.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Not applicable (Inaccessible threat does not apply to this data store) </strong>
 
 Interaction: Result Set -- Database to Keycloak
 ------------------------------------------------
@@ -334,46 +342,55 @@ Interaction: Result Set -- Database to Keycloak
 Category:	Spoofing
 Description:	Database may be spoofed by an attacker and this may lead to incorrect data delivered to Keycloak. Consider using a standard authentication mechanism to identify the source data store.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> using authentication based on key exchange </strong>
   
 63. Weak Access Control for a Resource  [State: Not Started]  [Priority: High]  
 Category:	Information Disclosure
 Description:	Improper data protection of Database can allow an attacker to read information not intended for disclosure. Review authorization settings.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> using encryption with authentication </strong>
   
 64. Spoofing the Keycloak Process  [State: Not Started]  [Priority: High]  
 Category:	Spoofing
 Description:	Keycloak may be spoofed by an attacker and this may lead to information disclosure by Database. Consider using a standard authentication mechanism to identify the destination process.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Using authentication based on key exchange </strong>
   
 65. Potential Data Repudiation by Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Repudiation
 Description:	Keycloak claims that it did not receive data from a source outside the trust boundary. Consider using logging or auditing to record the source, time, and summary of the received data.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> logging on both process side and data store side </strong>
   
 66. Potential Process Crash or Stop for Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	Keycloak crashes, halts, stops or runs slowly; in all cases violating an availability metric.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Not Applicable (inaccessiblity threat does not apply to this process) </strong>
   
 67. Data Flow Result Set Is Potentially Interrupted  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent interrupts data flowing across a trust boundary in either direction.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Handling all possible exceptions in a manner which prevents application down time </strong>
   
 68. Data Store Inaccessible  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent prevents access to a data store on the other side of the trust boundary.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong>  Not applicable (Inaccessible threat does not apply to this data store) </strong>
   
 69. Keycloak May be Subject to Elevation of Privilege Using Remote Code Execution  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	Database may be able to remotely execute code for Keycloak.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Implemented ACLs and Input Validation from the data store </strong>
   
 70. Elevation by Changing the Execution Flow in Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	An attacker may pass data into Keycloak in order to change the flow of program execution within Keycloak to the attacker's choosing.
 <br />Justification:	<strong>no mitigation provided</strong>
+<br />Mitigation:	<strong> Implemented ACLs and Input Validation from the data store </strong>
 
 Interaction: Token Registration -- Client Adapters to Keycloak
 --------------------------------------------------------------
