@@ -8,6 +8,14 @@ Identify Mitigation Strategies
 Summary Of Security Related Issues Identified In Keycloak's Software Design
 ----------------------------------------------------------------------------
 
+https://www.cvedetails.com/vulnerability-list/vendor_id-16498/Keycloak.html
+
+https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t
+
+https://issues.jboss.org/projects/KEYCLOAK/issues/KEYCLOAK-5459?filter=allopenissues
+
+
+
 
 
 
