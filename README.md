@@ -5,6 +5,8 @@ Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-Semester
 
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/PreProject_Decisions">PreProject_Decisions</a></strong> contains decisions made as a team prior to beginning the project.
 
+<a href="https://daniellucier.github.io/CYBER8420-SemesterProject/PreProject_Decisions">Test</a>
+
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/ProjectProposal">ProjectProposal</a></strong> contains our project proposal that was submitted to Dr. Gandhi.
 
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/AssuranceCases">AssuranceCases</a></strong> contains five assurance cases we developed for Keycloak and a link to diagrams in Lucidchart.
