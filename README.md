@@ -15,4 +15,4 @@ Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-Semester
 
 
 Test
-<a href = "https://daniellucier.github.io/CYBER8420-SemesterProject/blob/master/ThreatModels/Keycloak-Threat-Report.html">Threat Modeling Report</a>
+<a href = "https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/Keycloak-Threat-Report.html">Threat Modeling Report</a>
