@@ -14,7 +14,7 @@ Keycloak is a single process that has incoming and outgoing data traffic on mult
 
 A main concern that the TMT bought up is the Authentication Request/Response. Three of the five interactors that were determined brought the Elevation of Privilege and Spoofing threats to the forefront. To mitigate an Elevation of Privilege attack on Keycloak, it was determined that all input and output be scrubbed for any code that would negatively affect either process. To mitigate the threat of Spoofing, the traffic between Keycloak and the external interactor must be secured using SSL and encrypted.
 
-The Keycloak community have openly worked on securing the data flow between the process and the interactor. During the work effort of <a href = "https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t"> documenting security vulnerabilities and solutions </a> the community showed that SSL/HTTPS mode mitigates spoofing attempts. 
+The Keycloak community have openly worked on securing the data flow between the process and the external interactor. During the work effort of <a href = "https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t"> documenting security vulnerabilities and solutions </a> the community showed that SSL/HTTPS mode mitigates spoofing attempts. 
 
 According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/threat/csrf.html">Keycloak's documentation</a>, a possible CSRF vulnerability is identified, and a mitigation strategy is provided:
 
