@@ -8,7 +8,8 @@ Identify Mitigation Strategies
 Summary Of Security Related Issues Identified In Keycloak's Software Design
 ----------------------------------------------------------------------------
 
-Using the Microsoft threat Modeling Tool we developed a level 1 data flow diagram and found a few possible vulnerabilities which can be found at [PLACEHOLDER]. 
+Using the Microsoft threat Modeling Tool we developed a level 1 data flow diagram and found a some possible vulnerabilities along with documented CVE's.
+
 Keycloak is a single processes that has incoming and outgoing data traffic on multiple fronts including: an end user, third party applications, LDAP/Active Directory, client adapters, and a data source. Since Keycloak cannot ensure the security of each of these external interactor’s a single trust boundary has been placed around the Keycloak process to fully protect the main process.
 
 
