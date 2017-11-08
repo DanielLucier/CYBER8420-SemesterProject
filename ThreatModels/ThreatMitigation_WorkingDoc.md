@@ -62,57 +62,57 @@ Interaction: Authentication Request -- End User to Keycloak
 12. Spoofing the End User External Entity  [State: Not Started]  [Priority: High]  
 Category:	Spoofing
 Description:	End User may be spoofed by an attacker and this may lead to unauthorized access to Keycloak. Consider using a standard authentication mechanism to identify the external entity.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Utilize multi-factor authentication</strong>
   
 13. Elevation Using Impersonation  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	Keycloak may be able to impersonate the context of End User in order to gain additional privilege.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Utilize principle of least privilege</strong>
   
 14. Cross Site Request Forgery  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	Cross-site request forgery (CSRF or XSRF) is a type of attack in which an attacker forces a user's browser to make a forged request to a vulnerable site by exploiting an existing trust relationship between the browser and the vulnerable web site. In a simple scenario, a user is logged in to web site A using a cookie as a credential. The other browses to web site B. Web site B returns a page with a hidden form that posts to web site A. Since the browser will carry the user's cookie to web site A, web site B now can take any action on web site A, for example, adding an admin to an account. The attack can be used to exploit any requests that the browser automatically authenticates, e.g. by session cookie, integrated authentication, IP whitelisting, … The attack can be carried out in many ways such as by luring the victim to a site under control of the attacker, getting the user to click a link in a phishing email, or hacking a reputable web site that the victim will visit. The issue can only be resolved on the server side by requiring that all authenticated state-changing requests include an additional piece of secret payload (canary or CSRF token) which is known only to the legitimate web site and the browser and which is protected in transit through SSL/TLS. See the Forgery Protection property on the flow stencil for a list of mitigations.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Require a state cookie be used and matched against a transmitted state parameter</strong>
   
 15. Elevation by Changing the Execution Flow in Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	An attacker may pass data into Keycloak in order to change the flow of program execution within Keycloak to the attacker's choosing.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Utilize ACLs and validate all input</strong>
   
 16. Keycloak May be Subject to Elevation of Privilege Using Remote Code Execution  [State: Not Started]  [Priority: High]  
 Category:	Elevation Of Privilege
 Description:	End User may be able to remotely execute code for Keycloak.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Validate all input</strong>
   
 17. Data Flow Authentication Request Is Potentially Interrupted  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent interrupts data flowing across a trust boundary in either direction.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Ability to continue processing in a reduced capacity</strong>
   
 18. Potential Process Crash or Stop for Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	Keycloak crashes, halts, stops or runs slowly; in all cases violating an availability metric.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Validate all input and ability to continue processing in a reduced capacity</strong>
   
 19. Data Flow Sniffing  [State: Not Started]  [Priority: High]  
 Category:	Information Disclosure
 Description:	Data flowing across Authentication Request may be sniffed by an attacker. Depending on what type of data an attacker can read, it may be used to attack other parts of the system or simply be a disclosure of information leading to compliance violations. Consider encrypting the data flow.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Utilize strong encryption algorithm</strong>
   
 20. Potential Data Repudiation by Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Repudiation
 Description:	Keycloak claims that it did not receive data from a source outside the trust boundary. Consider using logging or auditing to record the source, time, and summary of the received data.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Logging and auditing of received data</strong>
   
 21. Potential Lack of Input Validation for Keycloak  [State: Not Started]  [Priority: High]  
 Category:	Tampering
 Description:	Data flowing across Authentication Request may be tampered with by an attacker. This may lead to a denial of service attack against Keycloak or an elevation of privilege attack against Keycloak or an information disclosure by Keycloak. Failure to verify that input is as expected is a root cause of a very large number of exploitable issues. Consider all paths and the way they handle data. Verify that all input is verified for correctness using an approved list input validation approach.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Validate all input</strong>
   
 22. Spoofing the Keycloak Process  [State: Not Started]  [Priority: High]  
 Category:	Spoofing
 Description:	Keycloak may be spoofed by an attacker and this may lead to information disclosure by End User. Consider using a standard authentication mechanism to identify the destination process.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Utilize multi-factor authentication</strong>
 
 Interaction: Authentication Request -- LDAP/Active Directory to Keycloak
 ------------------------------------------------------------------------
@@ -196,17 +196,17 @@ Interaction: Authentication Response -- End User to Keycloak
 37. Data Flow Authentication Response Is Potentially Interrupted  [State: Not Started]  [Priority: High]  
 Category:	Denial Of Service
 Description:	An external agent interrupts data flowing across a trust boundary in either direction.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Do not block waiting for responses that cross the trust boundary</strong>
   
 38. External Entity End User Potentially Denies Receiving Data  [State: Not Started]  [Priority: High]  
 Category:	Repudiation
 Description:	End User claims that it did not receive data from a process on the other side of the trust boundary. Consider using logging or auditing to record the source, time, and summary of the received data.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Logging and auditing of received data</strong>
   
 39. Spoofing of the End User External Destination Entity  [State: Not Started]  [Priority: High]  
 Category:	Spoofing
 Description:	End User may be spoofed by an attacker and this may lead to data being sent to the attacker's target instead of End User. Consider using a standard authentication mechanism to identify the external entity.
-<br />Justification:	<strong>no mitigation provided</strong>
+<br />Justification:	<strong>Using multi-factor authentication</strong>
 
 Interaction: Authentication Response -- Third Party Application to Keycloak
 ---------------------------------------------------------------------------
