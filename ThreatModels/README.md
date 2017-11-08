@@ -7,7 +7,7 @@ Identify Mitigation Strategies
 <br /><strong>Third Party Applications to/from Keycloak</strong>: 1 - 11, 40 - 42 -- Person responsible: Kero
 <br /><strong>End User to/from Keycloak</strong>: 12 - 22, 37 - 39 -- Person Responsible: Dan
 <br /><strong>LDAP/Active Directory to/from Keycloak</strong>: 23 - 36 -- Person Responsible: Chet
-<br /><strong>Client Adapters to/from Keycloak</strong>: 43 - 53, 71 - 73 -- Person Responsible: ??
+<br /><strong>Client Adapters to/from Keycloak</strong>: 43 - 53, 71 - 73 -- Person Responsible: Chet and Kero
 <br /><strong>Database to/from Keycloak</strong>: 54 - 70 -- Person Responsible: Glenn
 <br />#to be removed upon completion
 
