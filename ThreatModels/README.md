@@ -10,7 +10,7 @@ Summary Of Security Related Issues Identified In Keycloak's Software Design
 
 Using the Microsoft threat Modeling Tool we developed a level 1 data flow diagram and found a some possible vulnerabilities along with documented <a href = "https://www.cvedetails.com/vulnerability-list/vendor_id-16498/Keycloak.html">CVE's</a>.
 
-Keycloak is a single processes that has incoming and outgoing data traffic on multiple fronts including: an end user, third party applications, LDAP/Active Directory, client adapters, and a data source. Since Keycloak cannot ensure the security of each of these external interactor’s a single trust boundary has been placed around the Keycloak process to fully protect the main process.
+Keycloak is a single processes that has incoming and outgoing data traffic on multiple fronts including: an end user, third party applications, LDAP/Active Directory, client adapters, and a data source. Since Keycloak cannot ensure the security of each of these external interactors a single trust boundary has been placed around the Keycloak process to fully protect the main process.
 
 A main concern that the TMT bought up is the Authentication Request/Response. Three of the 5 interactors that were determined brought the Elevation of Privilege and Spoofing to the forefront. To prevent an Elevation of Privilege attack on Keycloak it was determined that all input and output be scrubbed for any code that would negatively affect either process. To prevent the Spoofing the traffic between to Keycloak and the interactor must be both secured using SSL and encrypted.
 
