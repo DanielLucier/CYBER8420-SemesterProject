@@ -11,7 +11,7 @@ Summary Of Security Related Issues Identified In Keycloak's Software Design
 Using the Microsoft threat Modeling Tool we developed a level 1 data flow diagram. Further reserch found some possible vulnerabilities along with documented <a href = "https://www.cvedetails.com/vulnerability-list/vendor_id-16498/Keycloak.html">CVE's</a>. According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/threat/csrf.html">Keycloak's documentation</a>, a possible CSRF vulnerability is identified, and a mitigation strategy is provided:
 
 &emsp;"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak
-&emsp;sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action
+<br />&emsp;sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action
 &emsp;links. This query or form parameter is checked against the state cookie to verify that the call was made by the user."
 
 Keycloak is a single process that has incoming and outgoing data traffic on multiple fronts (i.e.: an end user, third party applications, LDAP/Active Directory, client adapters, and a data source). Since Keycloak cannot ensure the security of each of these external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.
