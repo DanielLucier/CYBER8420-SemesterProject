@@ -20,7 +20,7 @@ According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/thr
 
 &emsp;"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak
 <br />&emsp;sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action
-&emsp;links. This query or form parameter is checked against the state cookie to verify that the call was made by the user."
+<br />&emsp;links. This query or form parameter is checked against the state cookie to verify that the call was made by the user."
 
 
 
