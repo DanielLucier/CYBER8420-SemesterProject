@@ -4,12 +4,12 @@ Identify Mitigation Strategies
 ------------------------------
 
 #to be removed upon completion
-<strong>Third Party Applications to/from Keycloak</strong>: 1 - 11, 40 - 42 -- Person responsible: Kero
+<br /><strong>Third Party Applications to/from Keycloak</strong>: 1 - 11, 40 - 42 -- Person responsible: Kero
 <br /><strong>End User to/from Keycloak</strong>: 12 - 22, 37 - 39 -- Person Responsible: Dan
 <br /><strong>LDAP/Active Directory to/from Keycloak</strong>: 23 - 36 -- Person Responsible: Chet
 <br /><strong>Client Adapters to/from Keycloak</strong>: 43 - 53, 71 - 73 -- Person Responsible: ??
 <br /><strong>Database to/from Keycloak</strong>: 54 - 70 -- Person Responsible: Glenn
-#to be removed upon completion
+<br />#to be removed upon completion
 
 <a href = "https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/Keycloak-Threat-Report.html">Click here to view the Keycloak Threat Report</a>
 
