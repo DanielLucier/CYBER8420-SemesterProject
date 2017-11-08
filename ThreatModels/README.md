@@ -17,13 +17,6 @@ A main concern that the TMT bought up is the Authentication Request/Response. Th
 The Keycloak community have openly worked on securing the data flow between the process and the interactor. During the work effort of <a href = "https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t"> documenting security vulnerabilities and solutions </a> the community showed that SSL/HTTPS mode mitigates spoofing attempts. 
 
 
-https://www.cvedetails.com/vulnerability-list/vendor_id-16498/Keycloak.html
-
-https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t
-
-https://issues.jboss.org/projects/KEYCLOAK/issues/KEYCLOAK-5459?filter=allopenissues
-
-
 
 
 
