@@ -1,4 +1,4 @@
-CYBER8420 - Software Assurance
+#CYBER8420 - Software Assurance
 ============================
 Fall 2017 - University of Nebraska at Omaha - Semester Team Project
 <br />Team: Glenn Anderson - Chet Cyr - Kero Lotfy - Dan Lucier
