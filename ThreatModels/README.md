@@ -14,7 +14,7 @@ A main concern that the TMT bought up is the Authentication Request/Response. Th
 
 The Keycloak community have openly worked on securing the data flow between the process and the external interactor. During the work effort of <a href = "https://issues.jboss.org/browse/KEYCLOAK-687?_sscc=t"> documenting security vulnerabilities and solutions </a>, the community showed that SSL/HTTPS mode mitigates spoofing attempts. Further reserch found some possible vulnerabilities along with documented <a href = "https://www.cvedetails.com/vulnerability-list/vendor_id-16498/Keycloak.html">CVE's</a>. 
 
-According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/threat/csrf.html">Keycloak's documentation</a>, a possible CSRF vulnerability is identified, and a mitigation strategy is provided:
+<a href="http://www.keycloak.org/docs/3.3/server_admin/topics/threat.html">Section 3.19, Threat Model Mitigation,</a> of Keycloak's documentation discusses possible security vulnerabilities that could be encountered by any authentication server and provides mitigation strategies to address the vulnerabilities. According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/threat/csrf.html">the CSRF section</a>, a possible CSRF vulnerability is identified, and a mitigation strategy is provided:
 
 &emsp;"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak
 <br />&emsp;sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action
