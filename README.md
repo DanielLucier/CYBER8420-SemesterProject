@@ -4,7 +4,7 @@ Fall 2017 - University of Nebraska at Omaha - Semester Team Project
 <br />Team: Glenn Anderson - Chet Cyr - Kero Lotfy - Dan Lucier
 
 
-We, Cyber Wardens, analyzed Keycloak v3.3.0 for secure software design design practices.
+We, Cyber Wardens, analyzed Keycloak v3.3.0 for secure software design practices.
 
 Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/projects/1">Project Kanban Board</a></strong> for an overview of tasks.
 
