@@ -3,7 +3,7 @@ Using Microsoft Threat Modeling Tool 2016 (TMT 2016), Cyber Wardens developed Le
 Identify Mitigation Strategies
 ------------------------------
 
-<a href = "https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Report.htm">Click here to view the Keycloak Threat Report</a>
+<a href = "https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm">Click here to view the Keycloak Threat Report</a>
 
 Summary Of Security Related Issues Identified In Keycloak's Software Design
 ----------------------------------------------------------------------------
