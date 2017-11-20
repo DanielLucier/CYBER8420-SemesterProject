@@ -16,12 +16,9 @@ If this is not a valid option i will chose a few locations in the code and use S
 Dan
 <br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. So someone can using tool that was brought up previously in class "Fingbugs, PMD, OWASP"
 
-Option 2
+Chet & Kero
 <br>Since KeyCloak had a CVE back in may, i think a static code review on the fixes that were put in place would be a great idea. This would involve looking through the keycloak commits and bug tracking to find references to the CVE and manually looking at the commit. This will include looking at the entire area of change from the beginning of time to current base. this can provide a reasoning why the bug was implemented.
 the CVE can be found at https://nvd.nist.gov/vuln/search/results?adv_search=false&form_type=basic&results_type=overview&search_type=all&query=keycloak 
-
-Option 3
-<br> Finding the logging page and viewing the past 5-10 code commits to that area. Since all off our mis-use cases involve logging in this would be a great area.
 
 Result
 ===================
