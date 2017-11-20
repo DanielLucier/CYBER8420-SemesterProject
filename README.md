@@ -21,3 +21,6 @@ Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-Semester
 
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/ThreatModels">ThreatModels</a></strong> contains reports generated from Microsoft's Threat Modeling Tool 2016 and a summary of security issues related to Keycloak.
 
+
+<strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/CodeAnalysis">CodeAnalysis</a></strong>
+contains our report for static code analysis by using both automated tools and manual code reviews. 
