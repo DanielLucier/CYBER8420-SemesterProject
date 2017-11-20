@@ -20,6 +20,9 @@ Chet & Kero
 <br>Since KeyCloak had a CVE back in may, i think a static code review on the fixes that were put in place would be a great idea. This would involve looking through the keycloak commits and bug tracking to find references to the CVE and manually looking at the commit. This will include looking at the entire area of change from the beginning of time to current base. this can provide a reasoning why the bug was implemented.
 the CVE can be found at https://nvd.nist.gov/vuln/search/results?adv_search=false&form_type=basic&results_type=overview&search_type=all&query=keycloak 
 
+ALL
+Misuse case/threat model analysis -- focus on login code
+
 Result
 ===================
 The four options above will cover the strategry (manual and automatic), manual code reviews, and automated code scanning.
