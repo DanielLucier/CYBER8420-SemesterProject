@@ -25,6 +25,6 @@ Option 3
 
 Result
 ===================
-The three options above will cover the strategry (manual and automatic), manual code reviews, and automated code scanning.
-Each option will result in two paragraphs on the findings. for the manual code reviews include informaiton such as why the change was made and possible risk levels of the change
+The four options above will cover the strategry (manual and automatic), manual code reviews, and automated code scanning.
+Each option will result in maximum two paragraphs on the findings. for the manual code reviews include informaiton such as why the change was made and possible risk levels of the change
 As of right now we do not have any pull requests or issues, so this section may be empty unless anything is found.
