@@ -21,7 +21,7 @@ Chet & Kero
 the CVE can be found at https://nvd.nist.gov/vuln/search/results?adv_search=false&form_type=basic&results_type=overview&search_type=all&query=keycloak 
 
 ALL
-Misuse case/threat model analysis -- focus on login code
+<br>Misuse case/threat model analysis 
 
 Result
 ===================
