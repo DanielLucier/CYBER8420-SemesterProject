@@ -12,6 +12,7 @@ Proposed Work
 Glenn
 <br>Sonar is a static code analysis tool. They have an IDE plugin called SonarLint to do analysis on a page your working on, and a free open source full code analysis. Glenn will attempt to run the full code analysis on keycloak pending license issues. because the free sonar publishes the results online, and requires the product to be open source, and have a copy of the source code under the github users account. Ill have to email Gandhi if this breaks the keycloaks Apache License
 If this is not a valid option i will chose a few locations in the code and use SonarLint to find issues and manually create a report.
+<br> full report can be found at https://sonarcloud.io/dashboard?id=org.keycloak%3Akeycloak-parent
 
 Dan
 <br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. So someone can using tool that was brought up previously in class "Fingbugs, PMD, OWASP"
