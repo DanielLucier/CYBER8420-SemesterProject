@@ -15,11 +15,16 @@ If this is not a valid option i will chose a few locations in the code and use S
 <br> full report can be found at https://sonarcloud.io/dashboard?id=org.keycloak%3Akeycloak-parent
 
 Dan
-<br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. So someone can using tool that was brought up previously in class "Fingbugs, PMD, OWASP"
+<br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. 
+
 <br><strong>Hardware:</strong> Windows 7 Enterprise VM
 <br><strong>Java IDE:</strong> Eclipse 3.6.0 Helios Release 20100617-1415
 <br><strong>Java Runtime Environment:</strong> Java 8.0 update 151
 <br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.20170921-25417ff
+<br>&emsp;&emsp;&emsp;Dan-Left to do:
+<br>Brief description of FindBugs
+<br>Summary of findings
+<br>Comapre findings with Sonar review
 
 Chet & Kero
 <br>Since KeyCloak had a CVE back in may, i think a static code review on the fixes that were put in place would be a great idea. This would involve looking through the keycloak commits and bug tracking to find references to the CVE and manually looking at the commit. This will include looking at the entire area of change from the beginning of time to current base. this can provide a reasoning why the bug was implemented.
