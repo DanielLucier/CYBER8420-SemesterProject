@@ -20,7 +20,7 @@ Dan
 <br><strong>Hardware:</strong> Windows 7 Enterprise VM
 <br><strong>Java IDE:</strong> Eclipse 3.6.0 Helios Release 20100617-1415
 <br><strong>Java Runtime Environment:</strong> Java 8.0 update 151
-<br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.20170921-25417ff
+<br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.20170921-25417ff (Eclipse plug-in)
 <br>&emsp;&emsp;&emsp;Dan-Left to do:
 <br>Brief description of FindBugs
 <br>Summary of findings
