@@ -21,7 +21,13 @@ Chet & Kero
 <br>Since KeyCloak had a CVE back in may, i think a static code review on the fixes that were put in place would be a great idea. This would involve looking through the keycloak commits and bug tracking to find references to the CVE and manually looking at the commit. This will include looking at the entire area of change from the beginning of time to current base. this can provide a reasoning why the bug was implemented.
 the CVE can be found at https://nvd.nist.gov/vuln/search/results?adv_search=false&form_type=basic&results_type=overview&search_type=all&query=keycloak 
 
-<br> The highest rated note vulnerability is 'CVE-2017-7474'which is found in Keyloack Node.js adapter 2.5 - 3.0. In which tokens were not handeled properly.
+<br> The highest rated vulnerability is 'CVE-2017-7474'which is found in Keyloack Node.js adapter 2.5 - 3.0. In which tokens were not handeled properly. This vulnerability would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). The issue was reported by Chess Hazlett in which he noted that the auth-utils grant manager in node.js causes token validity to be ignored during validateGrant(). On 2017-05-08 15:21:20 EDT the issues was addressed by the team and the solution stated the following: 
+  "The References section of this erratum contains a download link (you must
+log in to download the update). 
+
+Remove your existing Node.js adapter directory and unzip the update file into its place. Then change the dependency for keycloak-connect in the package.json of your application: change dependency file name to keycloak-connect-2.5.5-Final-redhat-3.tgz." 
+Reference: https://access.redhat.com/errata/RHSA-2017:1203
+
 
 ALL
 <br>Misuse case/threat model analysis 
