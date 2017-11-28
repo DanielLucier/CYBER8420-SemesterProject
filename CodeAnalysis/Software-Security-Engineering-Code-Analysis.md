@@ -6,3 +6,13 @@
 **Authors:** Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
 
 **Team Name:** Cyber Wardens
+
+<br> The team started the code analysis by searching for any known vulnerabilities for Keycloak through the 'National Vulnerability Database'. There were 5 noted vulnerabilities that are associated with Keycloak. Cyber Wardens' started with analyzing the noted vulnerabilities and following through the issue tracking and verfying they were patched. 
+
+<br> The highest rated vulnerability is 'CVE-2017-7474' which is found in Keyloack Node.js adapter 2.5 - 3.0. In which tokens were not handeled properly. This vulnerability would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). The issue was reported by Chess Hazlett in which he noted that the auth-utils grant manager in node.js causes token validity to be ignored during validateGrant(). On 2017-05-08 15:21:20 EDT the issues was addressed by the team and the solution stated the following: 
+
+   "The References section of this erratum contains a download link (you must log in to download the update).  Remove your existing Node.js adapter directory and unzip the update file into its place. Then change the dependency for keycloak-connect in the package.json of your application: change dependency file name to keycloak-connect-2.5.5-Final-redhat-3.tgz." Reference Link: (https://access.redhat.com/errata/RHSA-2017:1203)
+
+<br> The second highest vulnerability is 'CVE-2014-3709' which effects the org.keycloak.services.resources.SocialResource.callback method in JBoss on all versions before 1.0.3 final. This vulnerability leverages the lack of CSRF protection to conduct cross-site request forgery attacks. Which would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). This vulnerability was mitigated by the red hat community that supports Keycloak in version 1.0.3 or higher.  
+
+<br> The team noted that most of the vulnerabilities were trackked through red hat, which has a very strong community presence. Patches were generally deployed within a week or so of discovery. 
