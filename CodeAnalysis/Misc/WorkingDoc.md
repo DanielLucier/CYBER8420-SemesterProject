@@ -16,7 +16,6 @@ If this is not a valid option i will chose a few locations in the code and use S
 
 Dan
 <br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. So someone can using tool that was brought up previously in class "Fingbugs, PMD, OWASP"
-
 <br><strong>Hardware:</strong> Windows 7 Enterprise VM
 <br><strong>Java IDE:</strong> Eclipse 3.6.0 Helios Release 20100617-1415
 <br><strong>Java Runtime Environment:</strong> Java 8.0 update 151
