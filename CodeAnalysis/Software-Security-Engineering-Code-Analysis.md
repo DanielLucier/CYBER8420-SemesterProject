@@ -7,8 +7,8 @@
 
 **Team Name:** Cyber Wardens
 
-Automated Reviews
-=================
+**Automated Reviews**
+
 
 Sonar is a static code analysis tool that provides a suite of tools to review a developer’s code. For the analysis of Keycloak I used the free open source tool SonarQube. Using java’s building technology Maven, I was able to add a new goal to analysis and publish the code analysis online at https://sonarcloud.io/dashboard?id=org.keycloak%3Akeycloak-parent Sonar rates the code in four main areas: Bugs/Vulnerabilities, Code Smells, Coverage, and Duplications. Although not everything that Sonar finds is an actual issue, the results are not promising. Although the code passed the overall grade, the Bugs, Vulnerabilities, coverage and duplications all retrieved an E grade.
 <br>Sonar found 347 bugs and 591 vulnerabilities. While diving into the issues found, Sonar provides the exact locations of each of the issues along with the reason and how to resolve the issue. The issues range from making values into a static variable to not using values that are returned from functions.
