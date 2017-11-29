@@ -37,4 +37,10 @@ Redhat community bug tracking: (https://bugzilla.redhat.com/show_bug.cgi?id=1154
 
 rated: 7.5 High
 
+**Summary of Key Findings**
+
 &emsp;The team noted that most of the vulnerabilities were tracked through red hat, which has a very strong community presence. Patches were generally deployed within a week or so of discovery.
+
+
+**Pull Requests**
+
