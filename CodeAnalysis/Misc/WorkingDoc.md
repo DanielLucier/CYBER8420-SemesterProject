@@ -20,8 +20,9 @@ Dan
 <br><strong>Hardware:</strong> Windows 10 Enterprise 2016 LTSB
 <br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
-<br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.1
-<br><br>After all listed software was donwloaded, Keycloak (downloaded as .zip from Github) and FindBugs (downloaded as .zip from FindBugs website) were extracted to the desktop. All of the ".java" files from Keycloak were copied into a seperate folder (Keycloak-SourceCode). The FindBugs GUI was launched, and the .java files from Keycloak were added for analysis.
+<br><strong>Static Code Analysis Tool:</strong> pmd 5.8.1
+<br><br>After all listed software was donwloaded, Keycloak (downloaded as .zip from Github) and FindBugs (downloaded as .zip from FindBugs website) were extracted to the desktop. All of the .java and .js files from Keycloak were copied into a seperate folder (Keycloak-SourceCode). pmd was run from the command line to analyz the Keycloak files.
+<br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode -f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
 <br>&emsp;&emsp;&emsp;Dan-Left to do:
 <br>Brief description of FindBugs
 <br>Summary of findings
