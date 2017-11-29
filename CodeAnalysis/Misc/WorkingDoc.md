@@ -18,9 +18,10 @@ Dan
 <br>Another static code reviewing tool, as Gandhi said, one tool isnt always enough. 
 
 <br><strong>Hardware:</strong> Windows 7 Enterprise VM
-<br><strong>Java IDE:</strong> Eclipse 3.6.0 Helios Release 20100617-1415
-<br><strong>Java Runtime Environment:</strong> Java 8.0 update 151
-<br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.20170921-25417ff (Eclipse plug-in)
+<br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
+<br><strong>Static Code Analysis Tool:</strong> FindBugs 3.0.1
+<br><strong>Software Analyzed:</strong> Keycloak 3.3.0
+<br><br>After all listed software was donwloaded, Keycloak and FindBugs (downloaded as .zip) were extracted to the VM desktop. All of the "Executable JAR Files" from Keycloak were copied into a seperate folder (Keycloak-3.3.0-SourceCode). The FindBugs GUI was launched, and the JAR files from Keycloak were added for analysis.
 <br>&emsp;&emsp;&emsp;Dan-Left to do:
 <br>Brief description of FindBugs
 <br>Summary of findings
