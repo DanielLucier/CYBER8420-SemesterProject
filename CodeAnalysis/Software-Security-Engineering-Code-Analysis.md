@@ -9,7 +9,7 @@
 
 **Code Review Strategy**
 
-Cyber Wardens decided to use two automated code scanning tools, SonarQube and FindBugs, as well as researching existing CVEs for Keycloak to point us in the right direction to complete manual code review as well.  
+Cyber Wardens decided to use two automated code scanning tools, SonarQube and PMD, as well as researching existing CVEs for Keycloak to point us in the right direction to complete manual code review as well.  
 
 **Automated Code Scanning**
 
@@ -22,16 +22,13 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and Fi
 &emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
 
 <strong>Tool 2:</strong>
+
 <br><strong>Hardware:</strong> Windows 10 Enterprise 2016 LTSB
 <br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
-<br><strong>Static Code Analysis Tool:</strong> pmd 5.8.1
+<br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
 <br><br>After all listed software was donwloaded, Keycloak (downloaded as .zip from Github) and FindBugs (downloaded as .zip from FindBugs website) were extracted to the desktop. All of the .java and .js files from Keycloak were copied into a seperate folder (Keycloak-SourceCode). pmd was run from the command line to analyz the Keycloak files.
 <br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode -f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
-<br>&emsp;&emsp;&emsp;Dan-Left to do:
-<br>Brief description of FindBugs
-<br>Summary of findings
-<br>Comapre findings with Sonar review
 
 **Manual Code Review**
 
