@@ -19,7 +19,6 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and PM
 
 &emsp;Sonar found 347 bugs and 591 vulnerabilities. While diving into the issues found, Sonar provides the exact locations of each of the issues along with the reason and how to resolve the issue. The issues range from making values into a static variable to not using values that are returned from functions. Code Smell refers to symptoms in the code that might indicate deeper architectural problems. This includes technical debt referring to how much effort it will take to correct the underlining issues. Keycloak has 306 days of technical debt but due to the 476k lines of code still retrieved an A grade. Sonar was also able to find 11k lines of code that were attempts to cover the architectural issues. While diving into the issues, many of the issues were parameters being passed into functions were never used. Sonar’s coverage refers to the amount of code that is flex and tested using various types of unit tests. With 255 different unit tests only a fraction of the Keycloak software is protected or tested. When diving into the tests that are integrated it appears that many of the tests cover the security aspects such as parsing and input validation. Lastly duplications refers to the amount of code that is similar or just plainly copied from place to place for ease of use. Of the 476k lines of code Sonar found that 2,831 blocks of code have been duplicated. Although the official score is 55% duplicated, this is due to the included libraries of angular. The library is stored in multiple places making some files 100% duplicated which is misleading. 
 
-&emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
 
 <strong>Tool 2:</strong>
 
@@ -51,6 +50,8 @@ rated: 7.5 High
 **Summary of Key Findings**
 
 &emsp;The team noted that most of the vulnerabilities were tracked through red hat, which has a very strong community presence. Patches were generally deployed within a week or so of discovery.
+
+&emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
 
 
 **Pull Requests**
