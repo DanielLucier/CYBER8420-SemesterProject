@@ -7,6 +7,10 @@
 
 **Team Name:** Cyber Wardens
 
+**Code Review Strategy**
+
+Cyber Wardens decided to use two automated code scanning tools, SonarQube and FindBugs, as well as researching existing CVEs for Keycloak to point us in the right direction to complete manual code review as well.  
+
 **Automated Code Scanning**
 
 
@@ -16,6 +20,7 @@
 
 <br>&emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
 
+**Manual Code Review**
 
 <br> The team continued with the static code analysis by searching for any known vulnerabilities for Keycloak through the 'National Vulnerability Database'. There were 5 noted vulnerabilities that are associated with Keycloak. Cyber Wardens started with analyzing the noted vulnerabilities and following through the issue tracking and verifying they were patched. 
 
