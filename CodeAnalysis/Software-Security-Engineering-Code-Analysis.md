@@ -7,12 +7,12 @@
 
 **Team Name:** Cyber Wardens
 
-**Code Review Strategy**
-
+Code Review Strategy
+--------------------
 Cyber Wardens decided to use two automated code scanning tools, SonarQube and PMD, as well as researching existing CVEs for Keycloak to point us in the right direction to complete manual code review as well.  
 
-**Automated Code Scanning**
-
+Automated Code Scanning
+-----------------------
 <strong>Tool 1:</strong>
 
 &emsp;Sonar is a static code analysis tool that provides a suite of tools to review a developer’s code. For the analysis of Keycloak I used the free open source tool SonarQube. Using java’s building technology Maven, I was able to add a new goal to analysis and publish the code analysis online at <a href = "https://sonarcloud.io/dashboard?id=org.keycloak%3Akeycloak-parent"> SonarQube Projects</a>. Sonar rates the code in four main areas: Bugs/Vulnerabilities, Code Smells, Coverage, and Duplications. Although not everything that Sonar finds is an actual issue, the results are not promising. Although the code passed the overall grade, the Bugs, Vulnerabilities, coverage and duplications all retrieved an E grade.
@@ -31,8 +31,8 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and PM
 <br>&emsp;&emsp;-f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
 <br><br>PMD identified 194,920 violations.
 
-**Manual Code Review**
-
+Manual Code Review
+------------------
 &emsp;The team continued with the static code analysis by searching for any known vulnerabilities for Keycloak through the 'National Vulnerability Database'. There were 5 noted vulnerabilities that are associated with Keycloak. Cyber Wardens started with analyzing the noted vulnerabilities and following through the issue tracking and verifying they were patched. 
 
 &emsp;The highest rated vulnerability is 'CVE-2017-7474' which is found in Keyloack Node.js adapter 2.5 - 3.0. In which tokens were not handled properly. This vulnerability would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). The issue was reported by Chess Hazlett in which he noted that the auth-utils grant manager in node.js causes token validity to be ignored during validateGrant(). On 2017-05-08 15:21:20 EDT the issue was addressed by the team and the solution stated the following: 
@@ -52,12 +52,12 @@ Redhat community bug tracking: (https://bugzilla.redhat.com/show_bug.cgi?id=1154
 
 rated: 7.5 High
 
-**Summary of Key Findings**
-
+Summary of Key Findings
+-----------------------
 &emsp;The team noted that most of the vulnerabilities were tracked through red hat, which has a very strong community presence. Patches were generally deployed within a week or so of discovery.
 
 &emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
 
 
-**Pull Requests**
-
+Pull Requests
+-------------
