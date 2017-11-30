@@ -45,6 +45,10 @@ Please Note: the direct file that was effected could be found in the following g
 
 Rated: 9.8 Critical
 
+The major changes that were made in this pull request included token validation to verify that tokens are valid, missing, signed, etc.
+
+This CVE most closely maps to Cyber Wardens’ misuse case three which is related to minimizing unauthorized access.
+
 &emsp;The second highest rated vulnerability is 'CVE-2014-3709' which effects the org.keycloak.services.resources.SocialResource.callback method in JBoss on all versions before 1.0.3 final. This vulnerability leverages the lack of CSRF protection to conduct cross-site request forgery attacks (CSRF). This would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). This vulnerability was mitigated by the red hat community that supports Keycloak in version 1.0.3 or higher.
 
 Please Note, this vulnerability refers to following github code, refer to line 104, which is fixed in version 1.0.3 and above: https://github.com/keycloak/keycloak/blob/4b254475dad05741ab8ec88243dfbd35f7674aa4/services/src/main/java/org/keycloak/services/resources/SocialResource.java#L104
