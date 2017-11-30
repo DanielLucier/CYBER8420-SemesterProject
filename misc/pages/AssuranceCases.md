@@ -3,6 +3,8 @@ layout: default
 title: 8420 Assurance Cases
 description: CYBR 8420 Assurance Cases
 ---
+CYBER 8420 Assurance Cases
+==========================
 CyberWardens was tasked with building assurance cases for Keycloak. 
 
 First, we established five top level assurance claims for Keycloak:
