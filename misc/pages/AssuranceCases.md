@@ -1,3 +1,8 @@
+---
+layout: default
+title: 8420 Project Proposal
+description: CYBR 8420 Project Proposal
+---
 CyberWardens has created an Assurance Chart through Lucidchart. This
 chart was distributed to the entire team. The chart contains 5 tabs (one tab for each assurance case).
 
