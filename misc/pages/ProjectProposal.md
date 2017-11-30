@@ -3,6 +3,8 @@ layout: default
 title: 8420 Project Proposal
 description: CYBR 8420 Project Proposal
 ---
+Project Proposal
+================
 **Open Source Project:** Keycloak
 
 **Team Github Repository:** https://github.com/DanielLucier/CYBER8420-SemesterProject
