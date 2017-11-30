@@ -22,7 +22,7 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and PM
 
 <strong>Tool 2:</strong>
 
-<br><strong>Hardware:</strong> Windows 10 Enterprise 2016 LTSB
+<strong>Hardware:</strong> Windows 10 Enterprise 2016 LTSB
 <br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
 <br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
