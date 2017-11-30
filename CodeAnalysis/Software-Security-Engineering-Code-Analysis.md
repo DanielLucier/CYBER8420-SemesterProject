@@ -27,7 +27,8 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and PM
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
 <br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
 <br><br>After all listed software was donwloaded, Keycloak (downloaded as .zip from Github) and PMD (downloaded as .zip from PMD website) were extracted to the desktop. All of the .java and .js files from Keycloak were copied into a seperate folder (Keycloak-SourceCode). PMD was run from the command line to analyz the Keycloak files.
-<br><br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode -f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
+<br><br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode 
+<br>&emsp;&emsp;-f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
 <br><br>PMD identified 194,920 violations.
 
 **Manual Code Review**
