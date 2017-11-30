@@ -3,16 +3,6 @@ layout: default
 title: 8420 Requirements Report
 description: CYBR 8420 Requirements Report
 ---
-Cyber 8420 Requirements for Software Security Engineering
-=========================================================
-
-**Open Source Project:** Keycloak
-
-**Authors:** Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
-
-**Team Name:** Cyber Wardens
-
-
 Assurance Claims
 ----------------
 Below is a list of the five top level assurance claims developed by Cyber Wardens:
