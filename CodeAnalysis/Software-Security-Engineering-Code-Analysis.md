@@ -57,10 +57,7 @@ rated: 7.5 High
 
 Summary of Key Findings
 -----------------------
-&emsp;The team noted that most of the vulnerabilities were tracked through red hat, which has a very strong community presence. Patches were generally deployed within a week or so of discovery.
+&emsp;The Keycloak community provides a few outlets for its bug tracking and vulnerabilities, including a JIRA bug tracking and Github tracking. However, looking though, the finding of Sonar and PMD that were quite a few findings that are still open and should be corrected. Both tools found parameters orphaned in functions, and Sonar specifically found massive amounts of code that are not protected through testing.  I believe that by adding unit tests issues that the automated tools found can be fixed by anyone with a sense of assurance. 
 
-&emsp;Sonar provides some great resources to determine the state of a developer’s code. The four main sections are just a fraction of the information that is provided. There are even sections for reliability, security and maintainability. However for the Keycloak community to be able to address these issues more tests need to be written to provide assurance that any fixes won’t break existing functionality. 
+&emsp;The community is heading in the right direction. With the CVE-2017-7474 for using an invalid token fix, the user took it upon themselves to add a test to ensure that this type of vulnerability would not be exploited again. Amount the critical issue found in the CVE, Sonar found 218 blockers that given more time would be a great location to start.
 
-
-Pull Requests
--------------
