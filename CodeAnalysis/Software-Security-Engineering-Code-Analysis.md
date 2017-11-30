@@ -27,9 +27,11 @@ Automated Code Scanning
 <br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
 <br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
+
 <br>&emsp;After all listed software was downloaded, Keycloak and PMD were extracted to the desktop. All the .java and .js files from Keycloak were copied into a separate folder (Keycloak-SourceCode). PMD was run from the command line to analyze the Keycloak files. 
 <br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode 
 <br>&emsp;&emsp;-f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
+
 <br>&emsp;PMD is an open source static code analyzer that scans source code, in multiple languages, for possible bugs, dead code, suboptimal code, overcomplicated expressions, and duplicate code. A total of 194,920 violations were identified with 21,961 unique types. “Potential violation of Law of Demeter…” accounted for the largest number of violations. “Method chain calls” accounted for 37,759 violations (overall highest number of violations), “object not created locally” accounted for 19,118, and “static property access” accounted for 1,622. According to PMD’s documentation, the Law of Demeter “is a simple rule, that says ‘only talk to friends’. It helps to reduce coupling between classes or objects.” The Law of Demeter is also known as the principle of least knowledge. 
 <br><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/blob/master/CodeAnalysis/Misc/pmd_results/pmd-results.xlsx">Click here for an excel view of the PMD results.</a>
 <br><a href="https://unomaha.box.com/s/9cfp34t56457u4f2w8sm603f9432w0ad">This link contains the HTML version of PMD's results.</a>
