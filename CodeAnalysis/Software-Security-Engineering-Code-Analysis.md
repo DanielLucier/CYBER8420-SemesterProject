@@ -9,7 +9,7 @@
 
 Code Review Strategy
 --------------------
-Cyber Wardens decided to use two automated code scanning tools, SonarQube and PMD, as well as researching existing CVEs for Keycloak to point us in the right direction to complete manual code review as well.  
+Cyber Wardens decided to use two automated code scanning tools, SonarQube and PMD. The review strategy for manual code analysis was risk based by research existing CVEs for Keycloak to point us in the right direction to complete manual code review.  
 
 Automated Code Scanning
 -----------------------
