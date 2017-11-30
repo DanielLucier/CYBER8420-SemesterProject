@@ -16,12 +16,13 @@ Cyber 8420 Requirements for Software Security Engineering
 Assurance Claims
 ----------------
 Below is a list of five top level assurance claims developed by Cyber Wardens:
-
-1. User credentials are transmitted to third party applications over secure channels.
-2. Stored user credentials are protected from unauthorized access.
-3. Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.
-4. Keycloak minimizes non-administrative users access to the server admin console.
-5. Keycloak is protected against brute force attacks.
+<ol type="1">
+  <li>User credentials are transmitted to third party applications over secure channels.</li>
+  <li>Stored user credentials are protected from unauthorized access.</li>
+  <li>Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
+  <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
+  <li>Keycloak is protected against brute force attacks.</li>
+</ol>
 
 Security Requirements
 ---------------------
@@ -42,7 +43,7 @@ After developing assurance cases for each top level assurance claim, Cyber Warde
 
 Keycloak Documentation Review
 -----------------------------
-Keycloak documentation can be found at: http://www.keycloak.org/documentation.html
+<a href="http://www.keycloak.org/documentation.html">Click here for Keycloak's documentation.</a>
 
 &emsp;An important aspect of all applications that can transmit data between client and server is the encryption of the data. To this end, SSL certification on the hosted Keycloak website is essential. To mitigate the possibility of user’s access tokens from being stolen due to a packet sniffer, Keycloak offers three modes for SSL/HTTPS. The SSL mode defines the requirements for interacting with Keycloak. The three modes are: external requests, none, and all. External requests require users to obtain a static IP address (such as IP addresses on the network) to access the Keycloak console. None mode turns off the SSL requirements which could open the network traffic to vulnerabilities. Lastly, all mode requires SSL for all IP addresses, whether internal or external.
 
