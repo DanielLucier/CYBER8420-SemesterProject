@@ -3,7 +3,8 @@ layout: default
 title: 8420 Misuse Cases
 description: CYBR 8420 Misuse Cases
 ---
-
+Misuse Cases
+============
 CyberWardens created misuses cases to address the top level assurance claims identified through the <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/AssuranceCases.html">Assurance Cases</a> exercise. A diagram for each misuse case was developed in Lucidchart. 
 
 **Misuse Cases and corresponding Assurance Case/s:**
