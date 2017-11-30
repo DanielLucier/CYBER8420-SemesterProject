@@ -62,9 +62,6 @@ Rated: 8.8 High
 
 Redhat community bug tracking: (https://bugzilla.redhat.com/show_bug.cgi?id=1154971)
 
-&emsp;The third highest rated vulnerability is 'CVE-2017-12159' which discovered that the session cookie that is utilized to prevent CSRF is not unique for each session. This would enable an attacker to gain access to an authenticated user session, which would affect the confidentiality pillar of the CIA triad. 
-
-rated: 7.5 High
 
 Summary of Key Findings
 -----------------------
