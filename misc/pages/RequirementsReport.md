@@ -15,7 +15,7 @@ Cyber 8420 Requirements for Software Security Engineering
 
 Assurance Claims
 ----------------
-Below is a list of five top level assurance claims developed by Cyber Wardens:
+Below is a list of the five top level assurance claims developed by Cyber Wardens:
 <ol type="1">
   <li>User credentials are transmitted to third party applications over secure channels.</li>
   <li>Stored user credentials are protected from unauthorized access.</li>
@@ -26,7 +26,7 @@ Below is a list of five top level assurance claims developed by Cyber Wardens:
 
 Security Requirements
 ---------------------
-After developing assurance cases for each top level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
+&emsp;After developing assurance cases for each top level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
 
 <ul>
   <li>The communication that is sent over the network/internet is encrypted.</li>
