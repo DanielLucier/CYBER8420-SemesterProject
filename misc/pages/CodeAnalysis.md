@@ -1,5 +1,10 @@
-**Cyber 8420 Software Security Engineering Code Analysis**
-=============================================================
+---
+layout: default
+title: 8420 Code Analysis
+description: CYBR 8420 Code Analysis
+---
+Cyber 8420 Software Security Engineering Code Analysis
+======================================================
 
 **Open Source Project:** Keycloak
 
