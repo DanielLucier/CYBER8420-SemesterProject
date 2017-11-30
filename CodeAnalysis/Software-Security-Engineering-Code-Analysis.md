@@ -19,7 +19,7 @@ Automated Code Scanning
 
 &emsp;Sonar found 347 bugs and 591 vulnerabilities. While diving into the issues found, Sonar provides the exact locations of each of the issues along with the reason and how to resolve the issue. The issues range from making values into a static variable to not using values that are returned from functions. Code Smell refers to symptoms in the code that might indicate deeper architectural problems. This includes technical debt referring to how much effort it will take to correct the underlining issues. Keycloak has 306 days of technical debt, but the large size of the code base still results in an A rating. 
 
-<br>&emsp;Sonar was also able to find 11,000 lines of code that were attempts to cover the architectural issues. Many of these issues are caused by parameters being passed into functions that were never used. Sonar’s Coverage refers to the amount of code that is flex and tested using various types of unit tests. With 255 different unit tests, only a fraction of the Keycloak software is protected or tested. Analyzing the tests, it appears that many covered security aspects such as parsing and input validation. Lastly, Duplications refers to the amount of code that is similar or just copy and pasted. Of the 476,000 lines of code, Sonar found that 2,831 blocks of code that have been duplicated. Although the official duplicated score is 55%, this is due to the included libraries of angular. The library is stored in multiple places making some files 100% duplicated which is a misleading result.
+&emsp;Sonar was also able to find 11,000 lines of code that were attempts to cover the architectural issues. Many of these issues are caused by parameters being passed into functions that were never used. Sonar’s Coverage refers to the amount of code that is flex and tested using various types of unit tests. With 255 different unit tests, only a fraction of the Keycloak software is protected or tested. Analyzing the tests, it appears that many covered security aspects such as parsing and input validation. Lastly, Duplications refers to the amount of code that is similar or just copy and pasted. Of the 476,000 lines of code, Sonar found that 2,831 blocks of code that have been duplicated. Although the official duplicated score is 55%, this is due to the included libraries of angular. The library is stored in multiple places making some files 100% duplicated which is a misleading result.
 
 <strong>Tool 2:</strong>
 
@@ -27,7 +27,6 @@ Automated Code Scanning
 <br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
 <br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
-
 <br>&emsp;After all listed software was downloaded, Keycloak and PMD were extracted to the desktop. All the .java and .js files from Keycloak were copied into a separate folder (Keycloak-SourceCode). PMD was run from the command line to analyze the Keycloak files. 
 <br>&emsp;&emsp;C:\Users\student\desktop\pmd-bin-5.8.1\pmd-bin-5.8.1\bin> pmd -d C:\Users\student\desktop\Keycloak-SourceCode 
 <br>&emsp;&emsp;-f xml -R rulesets/internal/all-java.xml > C:\Users\student\desktop\pmd-results
