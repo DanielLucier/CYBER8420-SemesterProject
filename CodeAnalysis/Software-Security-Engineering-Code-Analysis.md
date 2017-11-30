@@ -24,7 +24,7 @@ Automated Code Scanning
 <strong>Tool 2:</strong>
 
 <strong>Hardware:</strong> Windows 10 Enterprise 2016 LTSB
-<br><strong>Java Develpoment Kit:</strong> Java SE 9.0.1
+<br><strong>Java Development Kit:</strong> Java SE 9.0.1
 <br><strong>Java Runtime Environment:</strong> Java 8 update 151
 <br><strong>Static Code Analysis Tool:</strong> PMD 5.8.1
 
@@ -46,11 +46,11 @@ Manual Code Review
 
 &emsp;"The References section of this erratum contains a download link (you must log in to download the update). Remove your existing Node.js adapter directory and unzip the update file into its place. Then change the dependency for keycloak-connect in the package.json of your application: change dependency file name to keycloak-connect-2.5.5-Final-redhat-3.tgz." Reference Link: (https://access.redhat.com/errata/RHSA-2017:1203)
 
-&emsp;The direct file that was affected could be found in the <a href="https://github.com/keycloak/keycloak-nodejs-auth-utils/pull/49/files"> github pull request</a> to fix the issue. The major changes that were made in this pull request included token validation to verify that tokens are valid, missing, signed, etc.
+&emsp;The direct file that was affected could be found in the <a href="https://github.com/keycloak/keycloak-nodejs-auth-utils/pull/49/files"> Github pull request</a> to fix the issue. The major changes that were made in this pull request included token validation to verify that tokens are valid, missing, signed, etc.
  
  &emsp;This CVE most closely maps to Cyber Wardens’ misuse case three which is related to minimizing unauthorized access.
 
-&emsp;The second highest rated vulnerability is 'CVE-2014-3709' (rating of 8.8 – High) which affects the org.keycloak.services.resources.SocialResource.callback method in JBoss on all versions before 1.0.3 final. This vulnerability leverages the lack of CSRF protection to conduct cross-site request forgery attacks (CSRF). This would affect the three CIA pillars (Confidentiality, Integrity, and Availability). This vulnerability was mitigated by the Red Hat community that supports Keycloak for version 1.0.3 and later. See<a href="https://bugzilla.redhat.com/show_bug.cgi?id=1154971"> Redhat community bug tracking</a> for more information about this CVE.
+&emsp;The second highest rated vulnerability is 'CVE-2014-3709' (rating of 8.8 – High) which affects the org.keycloak.services.resources.SocialResource.callback method in JBoss on all versions before 1.0.3 final. This vulnerability leverages the lack of CSRF protection to conduct cross-site request forgery attacks (CSRF). This would affect the three CIA pillars (Confidentiality, Integrity, and Availability). This vulnerability was mitigated by the Red Hat community that supports Keycloak for version 1.0.3 and later. See<a href="https://bugzilla.redhat.com/show_bug.cgi?id=1154971"> Red Hat community bug tracking</a> for more information about this CVE.
 
 &emsp;The fix for this vulnerability can be found at<a href="https://github.com/keycloak/keycloak/blob/4b254475dad05741ab8ec88243dfbd35f7674aa4/services/src/main/java/org/keycloak/services/resources/SocialResource.java#L104"> line 104 of the source code</a>. This fix was to validate and sanitize any incoming data from the callback function. This vulnerability was identified by our Threat Model. 
 
