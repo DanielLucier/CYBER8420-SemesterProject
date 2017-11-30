@@ -12,15 +12,16 @@
   <body>
 
     <section class="page-header">
-      <h1 class="project-name">CYBR 8420 Software Assurance</h1>
-      <h2 class="project-tagline">The University of Nebraska at Omaha</h2>
-      <a href="https://robinagandhi.github.io/swa" class="btn">Topics</a>
-      <a href="https://github.com/robinagandhi/swa" class="btn">Repo</a>
-      <a href="https://unomaha.instructure.com/courses/3042" class="btn">Canvas</a>
-      <a href="https://robinagandhi.github.io/swa/pages/syllabus.html" class="btn">Syllabus</a>
-      <a href="https://robinagandhi.github.io/swa/pages/project.html" class="btn">Project</a>
-      <a href="https://robinagandhi.github.io/swa/pages/halloffame.html" class="btn">Fame</a>
-      <a href="http://faculty.ist.unomaha.edu/rgandhi/" class="btn">Instructor</a>
+      <h1 class="project-name">CYBR 8420 Software Assurance - Fall 2017</h1>
+      <h2 class="project-tagline">Cyber Wardens Semester Project</h2>
+      <h3 class="project-tagline">The University of Nebraska at Omaha</h3>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/ProjectProposal.html" class="btn">Project Proposal</a>
+      <a href="https://github.com/DanielLucier/CYBER8420-SemesterProject.git" class="btn">Team Repo</a>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/AssuranceCases.html" class="btn">Assurance Cases</a>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/MisuseCases.html" class="btn">Misuse Cases</a>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/RequirementsReport.html" class="btn">Requirements Report</a>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/ThreatModels.html" class="btn">Threat Models</a>
+      <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/CodeAnalysis.html" class="btn">Code Analysis</a>
     </section>
 
 
