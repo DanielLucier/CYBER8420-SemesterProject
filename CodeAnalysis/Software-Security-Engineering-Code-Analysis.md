@@ -37,6 +37,7 @@ Cyber Wardens decided to use two automated code scanning tools, SonarQube and PM
 
 &emsp;"The References section of this erratum contains a download link (you must log in to download the update).  Remove your existing Node.js adapter directory and unzip the update file into its place. Then change the dependency for keycloak-connect in the package.json of your application: change dependency file name to keycloak-connect-2.5.5-Final-redhat-3.tgz." Reference Link: (https://access.redhat.com/errata/RHSA-2017:1203)
 Please Note: the direct file that was effected could be found in the following github pull request: https://github.com/keycloak/keycloak-nodejs-auth-utils/pull/49/files
+
 Rated: 9.8 Critical
 
 &emsp;The second highest rated vulnerability is 'CVE-2014-3709' which effects the org.keycloak.services.resources.SocialResource.callback method in JBoss on all versions before 1.0.3 final. This vulnerability leverages the lack of CSRF protection to conduct cross-site request forgery attacks (CSRF). This would affect the three pillars of the CIA triad (Confidentiality, Integrity, and availability). This vulnerability was mitigated by the red hat community that supports Keycloak in version 1.0.3 or higher.
