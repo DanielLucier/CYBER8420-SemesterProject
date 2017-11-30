@@ -1,26 +1,21 @@
 ---
 layout: default
-title: 8420 Project Proposal
-description: CYBR 8420 Project Proposal
+title: 8420 Assurance Cases
+description: CYBR 8420 Assurance Cases
 ---
-CyberWardens has created an Assurance Chart through Lucidchart. This
-chart was distributed to the entire team. The chart contains 5 tabs (one tab for each assurance case).
+CyberWardens was tasked with building assurance cases for Keycloak. 
 
-**Link to Lucidchart:**
+First, we established five top level assurance claims for Keycloak:
+<ul>
+  <li>User credentials are transmitted to third party applications over secure channels.</li>
+  <li>Stored user credentials are protected from unauthorized access.</li>
+  <li>Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
+  <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
+  <li>Keycloak is protected against brute force attacks.</li>
+ </ul>
 
-https://www.lucidchart.com/invitations/accept/7690e65f-8560-4d37-abb8-443722eb2cc9
+Next, we developed an assurance case for each top level assurance claim through Lucidchart.
 
-**Top Level Claims:**
+<a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101"> Click here to view the assurance cases.</a>
 
-1\. User credentials are transmitted to third party applications over
-secure channels. (Dan)
 
-2\. Stored user credentials are protected from unauthorized access. (Dan)
-
-3\. Sanitizing the input values from adding a new user minimizes the
-possibility of maliciously affecting Keycloak. (Glenn)
-
-4\. Keycloak minimizes non-administrative users access to the server
-admin console. (Chet)
-
-5\. Keycloak is protected against brute force attacks. (Kero)
