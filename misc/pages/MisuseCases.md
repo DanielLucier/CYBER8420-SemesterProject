@@ -14,4 +14,4 @@ CyberWardens created misuses cases to address the top level assurance claims ide
   <li>Misuse Case 4 elaborates on Assurance Case 5 - Keycloak is protected against brute force attacks.</li>
 </ul>
 
-<a href="https://www.lucidchart.com/publicSegments/view/d09f9a87-5d5c-4f07-bbff-e830f5ad4a4f">Click here to view the misuse cases.</a>
+<a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d">Click here to view the misuse cases.</a>
