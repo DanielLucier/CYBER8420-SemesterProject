@@ -5,19 +5,21 @@ description: CYBR 8420 Project Proposal
 ---
 Project Proposal
 ================
-**Open Source Project:** Keycloak
 
-**Team Github Repository:** https://github.com/DanielLucier/CYBER8420-SemesterProject
+Open Source Project: Keycloak
+------------------------------
 
-**Authors:** Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
+Authors: Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
+-------------------------------------------------------------
 
-**Team Name:** Cyber Wardens
+Team Name: Cyber Wardens
+------------------------
 
-&emsp;Keycloak is a server to client application that adds authentication to applications by storing user's credentials on a company's own server. This allows for single sign on to both desktop and web applications including social websites using LDAP and active directory. Some of the key features that are offered include creating password policies and scalability. Keycloak is an open source application with its first open source commit in 2013. Keycloak is based on industry standard protocols and incorporates support for OpenID, OAuth 2.0, SAML, and OpenID Connect. To find out more about Keycloak’s primary features please visit their webpage <a href=" http://www.keycloak.org/about.html">here</a>. 
+&emsp;Keycloak is a server to client application that adds authentication to applications by storing user's credentials on a company's own server. This allows for single sign on to both desktop and web applications including social websites using LDAP and active directory. Some of the key features that are offered include creating password policies and scalability. Keycloak is an open source application with its first open source commit in 2013. Keycloak is based on industry standard protocols and incorporates support for OpenID, OAuth 2.0, SAML, and OpenID Connect. To find out more about Keycloak’s primary features please visit their webpage <a href=" http://www.keycloak.org/about.html"><strong>here</strong></a>. 
 
-&emsp;Keycloak is also well documented. They host a<a href="http://www.keycloak.org/documentation.html"> documentation page</a> on their website. This documentation includes setup and how-to guides as well as API documentation. The Keycloak server and client applications are supported on Windows and Linux/Unix platforms. This project is written primarily in Java using JavaScript and CSS as the customer facing technology. Keycloak also offers a large community with over 190 different contributors with 8 main contributors and multiple returning users. A key reason for the strong community is that Keycloak is also backed by the RedHat community. Due to a large community, there are frequent builds and documentation updates including a release of version 3.3.0 on August 28th and version 3.2.1 on July 21st.
+&emsp;Keycloak is also well documented. They host a <a href="http://www.keycloak.org/documentation.html"><strong>documentation page</strong></a> on their website. This documentation includes setup and how-to guides as well as API documentation. The Keycloak server and client applications are supported on Windows and Linux/Unix platforms. This project is written primarily in Java using JavaScript and CSS as the customer facing technology. Keycloak also offers a large community with over 190 different contributors with 8 main contributors and multiple returning users. A key reason for the strong community is that Keycloak is also backed by the RedHat community. Due to a large community, there are frequent builds and documentation updates including a release of version 3.3.0 on August 28th and version 3.2.1 on July 21st.
 
-&emsp;Keycloak uses the Apache License 2.0. For a full listing of details for the Apache License 2.0,<a href="https://www.apache.org/licenses/LICENSE-2.0"> click here</a>. The following process is required to contribute to the project. A full description of the process may be found<a href="https://github.com/keycloak/keycloak/blob/master/misc/HackingOnKeycloak.md"> here</a>.
+&emsp;Keycloak uses the Apache License 2.0. For a full listing of details for the Apache License 2.0, <a href="https://www.apache.org/licenses/LICENSE-2.0"><strong>click here</strong></a>. The following process is required to contribute to the project. A full description of the process may be found <a href="https://github.com/keycloak/keycloak/blob/master/misc/HackingOnKeycloak.md"><strong>here</strong></a>.
 
 Here's a quick check list for a good pull request (PR):
 <ul>
@@ -32,7 +34,7 @@ Here's a quick check list for a good pull request (PR):
 </ul> 
 Once you're happy with your changes, go to GitHub and create a PR to the master branch.
 
-&emsp;As a contributor, one must first discuss any suggested changes with the developer mailing list and follow defined procedures to update the database schema and perform tests using testsuite. The Keycloak community does not enforce a specific coding style in their work, but they do recommend following the code style used by WildFly. A<a href="https://developer.jboss.org/wiki/ImportFormattingRules?_sscc=t"> how-to guide</a> for importing these formatting rules is available.
+&emsp;As a contributor, one must first discuss any suggested changes with the developer mailing list and follow defined procedures to update the database schema and perform tests using testsuite. The Keycloak community does not enforce a specific coding style in their work, but they do recommend following the code style used by WildFly. A <a href="https://developer.jboss.org/wiki/ImportFormattingRules?_sscc=t"><strong>how-to guide</strong></a> for importing these formatting rules is available.
 
 &emsp;Due to the maturity of Keycloak, there have been many opened and closed issues. Keycloak offers multiple locations where issues can be documented. This includes the Github project and a secondary JIRA website for tracking the issues and feature requests. Currently, there are 42 open issues and over 4,000 closed issues on Github. Among those issues are security bugs that have been resolved (i.e.: XSS defense and integration with active directory). 
 
