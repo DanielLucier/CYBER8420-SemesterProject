@@ -7,12 +7,13 @@ Misuse Cases
 ============
 CyberWardens created misuses cases to address the top level assurance claims identified through the <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/AssuranceCases.html">Assurance Cases</a> exercise. A diagram for each misuse case was developed in Lucidchart. 
 
-**Misuse Cases and corresponding Assurance Case/s:**
+Assurance Claim With Corresponding Misuse Case
+----------------------------------------------
 <ul>
-  <li>Misuse Case 1 elaborates on Assurance Case 1 - User credentials are transmitted to third party applications over secure channels.</li>
-  <li>Misuse Case 2 elaborates on Assurance Case 2 - Stored user credentials are protected from unauthorized access.</li>
-  <li>Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4 - Keycloak minimizes non-administrative user access to the server admin console and prevents users from acting maliciously by sanitizing input during new user creation.</li>
-  <li>Misuse Case 4 elaborates on Assurance Case 5 - Keycloak is protected against brute force attacks.</li>
+  <li>Assurance Case 1 (User credentials are transmitted to third party applications over secure channels) is elaborated on in Misuse Case 1.</li>
+  <li>Assurance Case 2 (Stored user credentials are protected from unauthorized access) is elaborated on in Misuse Case 2.</li>
+  <li>Assurance Case 3 (Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak) and Assurance Case 4 (Keycloak minimizes non-administrative users access to the server admin console) were elaborated on in Misuse Case 3.</li>
+  <li>Assurance Case 5 (Keycloak is protected against brute force attacks) is elaborated on in Misuse Case 4.</li>
 </ul>
 
 <a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d">Click here to view the misuse cases.</a>
