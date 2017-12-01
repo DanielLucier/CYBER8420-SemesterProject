@@ -58,9 +58,9 @@ a {
   text-align: center;
   width: 100%;
   background-image: url('headerimage.jpg');
-  background: repeat;
   background-position: center;
   background-size: cover;
+  padding-bottom: 15%;
 }
 
 @media screen and (min-width: 64em) {
