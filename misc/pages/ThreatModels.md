@@ -25,7 +25,7 @@ Summary Of Security Related Issues Identified In Keycloak's Software Design
 
 &emsp;&emsp;"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak
 <br />&emsp;&emsp; sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in <br />&emsp;&emsp; action links. This query or form parameter is checked against the state cookie to verify that the call was made by the 
-<br />&emsp;&emsp;user."
+<br />&emsp;&emsp; user."
 
 
 
