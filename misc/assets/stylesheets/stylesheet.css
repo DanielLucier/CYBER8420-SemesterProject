@@ -60,6 +60,7 @@ a {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: auto;
 }
 
 @media screen and (min-width: 64em) {
