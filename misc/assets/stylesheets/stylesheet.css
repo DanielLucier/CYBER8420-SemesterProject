@@ -58,8 +58,7 @@ a {
   text-align: center;
   background-image: url('headerimage(1).jpg');
   background-attachment: fixed;
-  background-position: center;
-  background-size: 1280px 853px;
+  background-size: auto;
 }
 
 @media screen and (min-width: 64em) {
