@@ -6,14 +6,12 @@ description: CYBR 8420 Project Proposal
 Project Proposal
 ================
 
-Open Source Project: Keycloak
-------------------------------
+<strong>Open Source Project:</strong> Keycloak
 
-Authors: Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
--------------------------------------------------------------
+<strong>Authors:</strong> Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
 
-Team Name: Cyber Wardens
-------------------------
+<strong>Team Name:</strong> Cyber Wardens
+
 
 &emsp;Keycloak is a server to client application that adds authentication to applications by storing user's credentials on a company's own server. This allows for single sign on to both desktop and web applications including social websites using LDAP and active directory. Some of the key features that are offered include creating password policies and scalability. Keycloak is an open source application with its first open source commit in 2013. Keycloak is based on industry standard protocols and incorporates support for OpenID, OAuth 2.0, SAML, and OpenID Connect. To find out more about Keycloak’s primary features please visit their webpage <a href=" http://www.keycloak.org/about.html"><strong>here</strong></a>. 
 
