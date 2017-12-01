@@ -61,6 +61,7 @@ a {
   background-image: url('https://daniellucier.github.io/CYBER8420-SemesterProject/misc/assets/images/imageheader.jpg');
   background-repeat: repeat;
   background-position: center;
+  background-size: 300px 100px;
 }
 
 @media screen and (min-width: 64em) {
