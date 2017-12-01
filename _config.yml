@@ -1,8 +1,5 @@
-name: This repository includes the Cyber Wardens group project for the Software Assurance course at UNO
-markdown: kramdown
-
-title: Software Assurance
-description: This repository includes things related to the Software Assurance course at UNO
+title: Software Assurance Semester Project
+description: This repository includes the Cyber Wardens group project for the Software Assurance course at UNO
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-minimal
