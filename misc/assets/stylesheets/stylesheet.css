@@ -57,7 +57,7 @@ a {
   color: #fff;
   text-align: center;
   background-image: url('headerimage.jpg');
-  background-size: contain;
+  background-size: auto;
 }
 
 @media screen and (min-width: 64em) {
