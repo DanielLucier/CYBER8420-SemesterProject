@@ -5,8 +5,7 @@ description: CYBR 8420 Code Analysis
 ---
 Code Analysis
 =============
-Code Review Strategy
---------------------
+## Code Review Strategy
 Cyber Wardens decided to use two automated code scanning tools, SonarQube and PMD.  The analysis for the automated code scanning tools gives highlighted results, but focuses the critical and blocker issues. A risk based review strategy was utilized for manual code analysis. Existing CVEs for Keycloak were researched and guided the manual code review.   
 
 Automated Code Scanning
