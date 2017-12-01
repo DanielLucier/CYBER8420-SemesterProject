@@ -5,9 +5,9 @@ description: CYBR 8420 Misuse Cases
 ---
 Misuse Cases
 ============
-CyberWardens created misuses cases to address the top level assurance claims identified through the <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/AssuranceCases.html">Assurance Cases</a> exercise. A diagram for each misuse case was developed in Lucidchart. 
+CyberWardens created misuses cases to address the top-level assurance claims identified through the <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/pages/AssuranceCases.html">Assurance Cases </a>exercise. A diagram for each misuse case was developed in Lucidchart. 
 
-Assurance Claim With Corresponding Misuse Case
+Assurance Claim with Corresponding Misuse Case
 ----------------------------------------------
 <ul>
   <li>Assurance Case 1 (User credentials are transmitted to third party applications over secure channels) is elaborated on in <i>Misuse Case 1</i>.</li>
