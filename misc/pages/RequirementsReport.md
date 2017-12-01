@@ -19,7 +19,7 @@ Below is a list of the five top-level assurance claims developed by Cyber Warden
 
 Security Requirements
 ----------------------
-&emsp;After developing assurance cases for each top-level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a"><strong>Click here to view our misuse case diagrams</strong></a>. From these misuse cases, several security requirements were identified:
+&emsp;After developing assurance cases for each top-level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d"><strong>Click here to view our misuse case diagrams</strong></a>. From these misuse cases, several security requirements were identified:
 <ul>
   <li>The communication that is sent over the network/internet is encrypted.</li>
   <li>SSL encryption is supported.</li>
