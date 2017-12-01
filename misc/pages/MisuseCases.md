@@ -16,4 +16,4 @@ Assurance Claim with Corresponding Misuse Case
   <li>Assurance Case 5 (Keycloak is protected against brute force attacks) is elaborated on in <i>Misuse Case 4</i>.</li>
 </ul>
 
-<a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d">Click here to view the misuse cases.</a>
+<a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d"><strong>Click here to view the misuse cases.</strong></a>
