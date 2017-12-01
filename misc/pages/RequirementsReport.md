@@ -15,8 +15,9 @@ Below is a list of the five top level assurance claims developed by Cyber Warden
   <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
   <li>Keycloak is protected against brute force attacks.</li>
 </ul>
+
 Security Requirements
----------------------
+----------------------
 After developing assurance cases for each top level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
 <ul>
   <li>The communication that is sent over the network/internet is encrypted.</li>
