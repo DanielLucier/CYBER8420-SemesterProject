@@ -2,7 +2,7 @@ class: center, middle
 # Keycloak
 ## Open Source Identity and Access Management
 <br><br><br>Cyber Wardens
-<br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
+<br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
 ---
 class: middle
