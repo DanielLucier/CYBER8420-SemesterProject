@@ -9,13 +9,13 @@ Security Requirements Report
 Assurance Claims
 ----------------
 &emsp;Below is a list of the five top level assurance claims developed by Cyber Wardens:
-<ul>
+<ol>
   <li>User credentials are transmitted to third party applications over secure channels.</li>
   <li>Stored user credentials are protected from unauthorized access.</li>
   <li>Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
   <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
   <li>Keycloak is protected against brute force attacks.</li>
-</ul>
+</ol>
 
 Security Requirements
 ----------------------
