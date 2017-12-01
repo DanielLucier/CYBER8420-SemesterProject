@@ -61,7 +61,6 @@ a {
   background: repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 15%;
 }
 
 @media screen and (min-width: 64em) {
