@@ -1,39 +1,58 @@
----
-layout: default
-title: 8420 Project Proposal
-description: CYBR 8420 Project Proposal
----
-Project Proposal
-================
-**Open Source Project:** Keycloak
+### Course Description
+* Assurance is a reasoned, audit-able argument created to support claimed beliefs about a certain entity
+* This course is an intersection of knowledge areas necessary to perform engineering activities relevant for promoting assurance in claims for `Secure Software`.
+* This course takes on a software development lifecycle perspective for the prevention of flaws.
 
-**Team Github Repository:** https://github.com/DanielLucier/CYBER8420-SemesterProject
+### Instruction
+* The course will be conducted through “discussions” and “trying things out”.
+* There will be many class-exercises in small groups. 
+* Familiarity with reading materials will be assessed using in-class quizzes. Students must complete assignments and independent projects as directed. 
 
-**Authors:** Glenn Anderson, Dan Lucier, Chet Cyr, Kerolos Lotfy
+### Resource Material
+#### Textbooks
+_None_. Most readings and supplemental materials will be provided in class. All lecture slides will be made available on blackboard.
 
-**Team Name:** Cyber Wardens
+#### Other reading materials
+* Secure Coding: Principles and Practice, M.G. Graff & K.R. van Wyk (This is a good book that every software developer must read)
+* Building Secure Software, J. Viega & G. McGraw (We will refer to some chapters of this book for security enhancing implementation practices)
+* System Assurance: beyond Detecting Vulnerabilities, Mansourov, Nikolai, and Djenana Campara. Elsevier/Morgan Kaufmann, 2011 (Standards based definition and assessment of software weaknesses, creating an assurance argument)
 
-Keycloak is a server to client application that adds authentication to applications by storing user's credentials on a company's own server. This allows for single sign on to both desktop and web applications including social websites using LDAP and active directory. Some of the key features that are offered include creating password policies and scalability. Keycloak is an open source application with its first open source commit in 2013. Keycloak is based on industry standard protocols and incorporates support for OpenID, OAuth 2.0, SAML, and OpenID Connect. To find out more about Keycloak’s primary features please visit their webpage <a href=" http://www.keycloak.org/about.html">here</a>. Keycloak is also well documented. They host a<a href="http://www.keycloak.org/documentation.html"> documentation page</a> on their website. This documentation includes setup and how-to guides as well as API documentation. The Keycloak server and client applications are supported on Windows and Linux/Unix platforms. This project is written primarily in Java using JavaScript and CSS as the customer facing technology. Keycloak also offers a large community with over 190 different contributors with 8 main contributors and multiple returning users. A key reason for the strong community is that Keycloak is also backed by the RedHat community. Due to a large community, there are frequent builds and documentation updates including a release of version 3.3.0 on August 28th and version 3.2.1 on July 21st.
+### Additional References
+* Secure Programming for Linux and Unix HOWTO, David Wheeler, http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html 
+* Browser Security Handbook Part 1: https://code.google.com/p/browsersec/wiki/Part1   
+and Part 2: https://code.google.com/p/browsersec/wiki/Part2 
+* Software Assurance in Education, Training and Certification, Pocketguide, Ed. Robin Gandhi, https://buildsecurityin.us-cert.gov/swa/software-assurance-pocket-guide-series/#lifecycle 
+(A comprehensive list of references and book on software assurance and certification options can be found in this book)
+* Build security in website. Department of Homeland Security (DHS). https://buildsecurityin.us-cert.gov (A large, dynamic collection of resources for software assurance)
 
-Keycloak uses the Apache License 2.0. For a full listing of details for the Apache License 2.0,<a href="https://www.apache.org/licenses/LICENSE-2.0"> click here</a>. The following process is required to contribute to the project. A full description of the process may be found<a href="https://github.com/keycloak/keycloak/blob/master/misc/HackingOnKeycloak.md"> here</a>.
+### Attendance
+Attendance is highly encouraged as there is no textbook material readily available for this course. If you cannot attend class, then it is your duty to follow up with any given instruction, class assignment deadlines and lecture notes. 
+		
+### Policy on Plagiarism
+Any exam or assignment material submitted which looks identical in any fashion to another student’s work or external sources will be considered plagiarism. The grade of which will be adjusted to the minimum possible (Zero) for the assignment for all parties involved. Any further offenses will result in an “F” for the course, accompanied by academic dishonesty actions taken by the College Dean. Note carefully the University policy on academic integrity (http://goo.gl/NVWUBy; https://goo.gl/JHfZWW) and code of conduct (http://goo.gl/Ar8Bda).  
+Make yourself familiar with writing techniques such that you can cite external sources without plagiarizing. Here is are a few links to writing resources: http://owl.english.purdue.edu/owl/resource/563/01/ https://owl.english.purdue.edu/owl/resource/589/01/
 
-Here's a quick check list for a good pull request (PR):
-<ul>
-  <li>Discussed and agreed on Keycloak Dev mailing list</li>
-  <li>One commit per PR</li>
-  <li>One feature/change per PR</li>
-<li>No changes to code not directly related to your change (e.g. no formatting changes or refactoring to existing code, if you want to refactor/improve existing code that's a separate discussion to mailing list and JIRA issue)</li>
-  <li>A JIRA associated with your PR (include the JIRA issue number in commit comment)</li>
-  <li>All tests in testsuite pass</li>
-  <li>Do a rebase on upstream master</li>
-<li>We only accept contributions to the master branch. The exception to this is if the fix is for the latest CR release and Final has not yet been released, in which case you can send the PR to both the corresponding branch and the master branch.</li>
-</ul> 
-Once you're happy with your changes, go to GitHub and create a PR to the master branch.
+### Exams
+There will be a mid term exam, and a final exam. The exams will consist of essay-type questions with only a few multiple choices type questions. These in-class exams are intended to help focus on the important parts in the material, reinforce learning, and provide timely feedback. The exam questions typically have multiple parts, be sure you answer all the parts.
 
-As a contributor, one must first discuss any suggested changes with the developer mailing list and follow defined procedures to update the database schema and perform tests using testsuite. The Keycloak community does not enforce a specific coding style in their work, but they do recommend following the code style used by WildFly. A<a href="https://developer.jboss.org/wiki/ImportFormattingRules?_sscc=t"> how-to guide</a> for importing these formatting rules is available.
+### In-class Exercises
+In-class exercises will be conducted in stages that correspond to the software development lifecycle. The objective of assignments is to gain hands-on experience in various techniques and tools for software assurance and apply them to build secure software. Details about the assignments will follow as we go further into the semester. Special software programs/tools will be provided to you for some of the assignments. The instructions to turn in the assignment will be provided along with each the assignments. 
 
-Due to the maturity of Keycloak, there have been many opened and closed issues. Keycloak offers multiple locations where issues can be documented. This includes the Github project and a secondary JIRA website for tracking the issues and feature requests. Currently, there are 42 open issues and over 4,000 closed issues on Github. Among those issues are security bugs that have been resolved (i.e.: XSS defense and integration with active directory). 
+### Grading
+20% Reading summaries/open discussion and class participation
+20% Mid-term
+20% Final exam (Comprehensive)
+20% In-class Exercises
+20% Semester Project and Presentation
 
-With Keycloak both pulling information from a centralized location and interacting with the client's desktop/web applications, there are plenty of security requirements that must be considered. Since Keycloak supports multiple platforms, understanding the various platforms is a must to be able to securely deploy it across an entire organization. Keycloak provides documentation pertaining to proper security implementation steps for each supported platform. Also, with single sign on (SSO) an organization needs to be able to set and enforce security policies throughout various systems. According to Keycloak’s documentation, an organization is able to perform that task. Keycloak supports the most common social media services as well (i.e.: Github, Linkedin, StackOverflow, Google, Facebook, Twitter, and Microsoft). Some security areas that we will be looking for are policy implementation, authentication, and authorization processes.
+### Course Meeting Schedule
+In this semester there are scheduled ~16 available class periods on Wednesdays for 135 minutes each. Accounting for in-class exams, project presentations, snow days, instructor travel to conferences and the like we will actually have something closer to 10-11 class periods for instruction. 
 
-When searching for a project, our motivation was to select one with obvious security requirements. A project that offered some form of user credential/password storage had the obvious security requirement of protecting a user’s information. Are passwords stored in plaintext or ciphertext? If passwords are saved in ciphertext, is an appropriate encryption algorithm used? These are just some requirements that we felt would need to be addressed to determine the security of a user credential/password storage project. We found a wealth of open source projects for this type of software. Most of the projects were either outdated or had very few main contributors/activity. Fortunately, we located Keycloak. Keycloak is a mature project with a decent amount of recent activity. As previously noted, the project is endorsed by Red Hat. In fact, Red Hat derives their own software from this project.
+Due to the current and advanced nature of this class, it is under constant revision! So you can expect some experimentation and shuffling of the course topics as we progress through the semester. Constructive feedback on the content is highly encouraged.
+
+### Book Keeping
+Put your name, date and class identification and page number on all your assignments and any correspondence with me. All email sent to me regarding the class must have the class descriptor and your name in the subject field e.g. (IASC/CSCI 8420 - TOPIC). We will be using blackboard for the course.
+
+### Contact Information
+See Blackboard.
+
