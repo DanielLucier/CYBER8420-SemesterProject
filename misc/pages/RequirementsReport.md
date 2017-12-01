@@ -3,19 +3,23 @@ layout: default
 title: 8420 Requirements Report
 description: CYBR 8420 Requirements Report
 ---
-# Security Requirements Report
+Security Requirements Report
+============================
 ## Assurance Claims
 
 Below is a list of the five top level assurance claims developed by Cyber Wardens:
-- User credentials are transmitted to third party applications over secure channels.
-- Stored user credentials are protected from unauthorized access.
-- Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.
-- Keycloak minimizes non-administrative users access to the server admin console.
-- Keycloak is protected against brute force attacks.
-
-## Security Requirements
+<ul>
+  <li>User credentials are transmitted to third party applications over secure channels.</li>
+  <li>Stored user credentials are protected from unauthorized access.</li>
+  <li>Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
+  <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
+  <li>Keycloak is protected against brute force attacks.</li>
+</ul>
+Security Requirements
+---------------------
 After developing assurance cases for each top level assurance claim, Cyber Wardens developed misuse cases to address the claims. A diagram for each misuse case was developed in Lucidchart. <a href="https://www.lucidchart.com/invitations/accept/8f828c56-45d6-4af2-81cc-23e43b10af5a">Click here to view our misuse case diagrams.</a> From these misuse cases, several security requirements were identified:
-- The communication that is sent over the network/internet is encrypted.
+<ul>
+  <li>The communication that is sent over the network/internet is encrypted.</li>
   <li>SSL encryption is supported.</li>
   <li>Passwords are stored in the application as ciphertext.</li>
   <li>A salt is added to passwords prior to encryption.</li>
