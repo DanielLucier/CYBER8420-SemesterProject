@@ -5,8 +5,9 @@ description: CYBR 8420 Requirements Report
 ---
 Security Requirements Report
 ============================
-## Assurance Claims
 
+Assurance Claims
+----------------
 Below is a list of the five top level assurance claims developed by Cyber Wardens:
 <ul>
   <li>User credentials are transmitted to third party applications over secure channels.</li>
