@@ -5,6 +5,7 @@ class: center, middle
 <br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
 ---
+class: middle
 # Overview
 <ul>
   <li>Project Description</li>
