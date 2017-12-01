@@ -56,7 +56,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-image: url('headerimage.jpg');
+  background-image: url('../images/headerimage.jpg');
   background-position: center;
   background-size: cover;
 }
