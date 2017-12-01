@@ -18,6 +18,6 @@ First, we established five top level assurance claims for Keycloak:
 
 Next, we developed an assurance case for each top-level assurance claim through Lucidchart.
 
-<a href="https://www.lucidchart.com/documents/view/ba3f2ae5-7929-458f-850b-925295860062"> Click here to view the assurance cases.</a>
+<a href="https://www.lucidchart.com/documents/view/ba3f2ae5-7929-458f-850b-925295860062"><strong>Click here to view the assurance cases.</strong></a>
 
 
