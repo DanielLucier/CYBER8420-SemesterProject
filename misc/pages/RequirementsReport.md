@@ -35,7 +35,7 @@ Security Requirements
 
 Keycloak Documentation Review
 -----------------------------
-<a href="http://www.keycloak.org/documentation.html"><strong>Click here for Keycloak's documentation.</strong></a>
+<a href="http://www.keycloak.org/archive/documentation-3.3.html"><strong>Click here for Keycloak's documentation.</strong></a>
 
 &emsp;An important aspect of all applications that can transmit data between client and server is the encryption of the data. To this end, SSL certification on the hosted Keycloak website is essential. To mitigate the possibility of user’s access tokens from being stolen due to a packet sniffer, Keycloak offers three modes for SSL/HTTPS. The SSL mode defines the requirements for interacting with Keycloak. The three modes are: external requests, none, and all. External requests require users to obtain a static IP address (such as IP addresses on the network) to access the Keycloak console. None mode turns off the SSL requirements which could open the network traffic to vulnerabilities. Lastly, all mode requires SSL for all IP addresses, whether internal or external.
 
