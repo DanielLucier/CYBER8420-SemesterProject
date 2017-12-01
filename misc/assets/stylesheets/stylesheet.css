@@ -59,7 +59,7 @@ a {
   background-image: url('headerimage(1).jpg');
   background-attachment: fixed;
   background-position: center;
-  background-size: auto;
+  background-size: 1280px 853px;
 }
 
 @media screen and (min-width: 64em) {
