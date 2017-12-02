@@ -15,12 +15,16 @@ class: middle
   <li>Code Review</li>
 </ul>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
 # Project Description
 <ul>
   <li>To be completed by Kero</li>
 </ul>
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
@@ -37,12 +41,16 @@ class: middle
   <li><a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101">Lucidchart diagrams</a></li>
 </ul>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
 # Security Requirements
 <ul>
   <li>To be completed by Chet</li>
 </ul>
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
@@ -51,6 +59,8 @@ class: middle
   <li>To be completed by Glenn</li>
 </ul>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
 # Contributions
@@ -58,9 +68,13 @@ class: middle
   <li>Content TBD</li>
 </ul>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: center, middle
 # Questions?
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 
