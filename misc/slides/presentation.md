@@ -3,7 +3,8 @@ class: center, middle
 ## <span style="color:red">Open Source Identity and Access Management</span>
 <br><br><br>Cyber Wardens
 <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
-.topnote[![logo](https://danilelucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
+.top-right[![logo](https://danilelucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
