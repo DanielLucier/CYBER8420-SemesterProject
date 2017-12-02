@@ -1,17 +1,11 @@
 class: center, middle
-background-color: white;
-background-image: url=(/images/SlidesBackground.png) no-repeat;
-background-size: cover;
-background-position: 0 0;
-clear: both;
-width: 100%;
-padding: 1em 0;
 # <span style="color:DarkBlue">Keycloak</span>
 ## <span style="color:red">Open Source Identity and Access Management</span>
 <br><br><br>Cyber Wardens
 <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
-
+---
+background-image: url(images/SlidesBackground.png)
 
 ---
 class: middle
