@@ -1,11 +1,11 @@
 class: center, middle
 <div class="imagecontainer">
-  ## <br><br><br>Open Source Identity and Access Management
-  <br><br><br>Cyber Wardens
-  <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
-</div>
+## <br><br><br>Open Source Identity and Access Management
+<br><br><br>Cyber Wardens
+<br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
 .top-center-logo[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+</div>
 
 ---
 class: middle
