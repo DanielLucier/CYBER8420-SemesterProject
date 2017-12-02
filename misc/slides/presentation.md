@@ -5,9 +5,6 @@ class: center, middle
 <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
 ---
-background-image: url(images/SlidesBackground.png)
-
----
 class: middle
 # Overview
 <ul>
