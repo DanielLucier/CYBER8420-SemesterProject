@@ -30,6 +30,7 @@
       .small{ font-size:1em; }
       a, a > code {
         color: crimson;
+        font-size: 10px;
         text-decoration: none;
       }
       code {
