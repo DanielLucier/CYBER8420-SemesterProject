@@ -5,18 +5,19 @@
   <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 
 .top-center-logo[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+</div>
 
 ---
 <div class="imagecontainer>
-# Overview
-<ul>
-  <li>Project Description</li>
-  <li>Assurance Claims</li>
-  <li>Security Requirements</li>
-  <li>Code Review</li>
-</ul>
+  <strong>Overview</strong>
+  <ul>
+    <li>Project Description</li>
+    <li>Assurance Claims</li>
+    <li>Security Requirements</li>
+    <li>Code Review</li>
+  </ul>
 
-.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+  .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 </div>
 
 ---
