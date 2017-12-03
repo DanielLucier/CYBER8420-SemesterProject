@@ -66,6 +66,12 @@
         top: 140px;
         left: 10px;
       }
+      .center-image{
+            position: fixed;
+            width: 100%;
+            top: 140px;
+            left 10px;
+      }
       .bottom-right{
         position: absolute;
         width: 25%;
