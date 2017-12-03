@@ -1,4 +1,4 @@
-class: middle  
+class: center, middle  
   # <br><br><br><strong>Open Source Identity and Access Management</strong>
   <br><br><br>Cyber Wardens
   <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
