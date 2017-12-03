@@ -89,7 +89,7 @@
       .imagecontainer {
         width: 200px;
         height: 200px;
-        background-image: url(images/SlidesBackground.png);
+        background-image: url(../images/SlidesBackground.png);
         background-size: cover;
       }
       /* responsive images */
