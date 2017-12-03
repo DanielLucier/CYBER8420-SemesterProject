@@ -39,7 +39,7 @@ class: middle
 class: middle
 
 <span style="color:white">  
-  <strong>Assurance Claims<strong>
+  <strong>Assurance Claims</strong>
   <ul>
     <li style="color:white;">User credentials are transmitted to third party applications over secure channels.</li>
     <li style="color:white;">Stored user credentials are protected from unauthorized access.</li>
