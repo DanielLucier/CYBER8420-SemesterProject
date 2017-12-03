@@ -3,7 +3,7 @@
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:italic);
       body {
         font-family: 'Roboto Condensed';
-        <style ="color:white">
+        font color="white";
       }
       h1, h2, h3 {
         font-family: 'Roboto Condensed';
