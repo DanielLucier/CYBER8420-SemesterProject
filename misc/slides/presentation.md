@@ -14,7 +14,7 @@ class: middle
 <span style="color:white">
   <strong>Overview</strong>
   <ul>
-    <li>Project Description</li>
+    <li style="color:white;">Project Description</li>
     <li>Assurance Claims</li>
     <li>Security Requirements</li>
     <li>Code Review</li>
