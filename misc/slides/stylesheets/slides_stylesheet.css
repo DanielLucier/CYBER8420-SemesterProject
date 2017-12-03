@@ -29,7 +29,7 @@
       .large { font-size: 1.5em; }
       .small{ font-size:1em; }
       a, a > code {
-        color: rgb(249, 38, 114);
+        color: crimson;
         text-decoration: none;
       }
       code {
