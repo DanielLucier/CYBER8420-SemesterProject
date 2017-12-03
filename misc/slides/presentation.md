@@ -97,6 +97,13 @@ class: center, middle
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
+---
+class: center, middle
+
+.center-image[![questions](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/questions.jpg)]
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 
 
     
