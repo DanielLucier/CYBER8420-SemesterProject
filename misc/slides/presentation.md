@@ -7,7 +7,7 @@
 </div>
 
 ---
-<div class="imagecontainer>
+<div class="imagecontainer">
   <strong>Overview</strong>
   <ul>
     <li>Project Description</li>
