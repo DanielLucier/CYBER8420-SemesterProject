@@ -15,9 +15,9 @@ class: middle
   <strong>Overview</strong>
   <ul>
     <li style="color:white;">Project Description</li>
-    <li>Assurance Claims</li>
-    <li>Security Requirements</li>
-    <li>Code Review</li>
+    <li style="color:white;">Assurance Claims</li>
+    <li style="color:white;">Security Requirements</li>
+    <li style="color:white;">Code Review</li>
   </ul>
 </span>
 
@@ -29,7 +29,7 @@ class: middle
 <span style="color:white">
   <strong>Project Description</strong>
   <ul>
-    <li>To be completed by Kero</li>
+    <li style="color:white;">To be completed by Kero</li>
   </ul>
 </span>
 
@@ -41,16 +41,13 @@ class: middle
 <span style="color:white">  
   <strong>Assurance Claims<strong>
   <ul>
-    <li>Top Level Claims</li>
-      <ul class="circle">
-        <li>User credentials are transmitted to third party applications over secure channels.</li>
-        <li>Stored user credentials are protected from unauthorized access.</li>
-        <li>Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
-        <li>Keycloak minimizes non-administrative users access to the server admin console.</li>
-        <li>Keycloak is protected against brute force attacks.</li>
-      </ul>
-    <li><a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101"><strong>Lucidchart  diagrams</strong>   </a></li>
+    <li style="color:white;">User credentials are transmitted to third party applications over secure channels.</li>
+    <li style="color:white;">Stored user credentials are protected from unauthorized access.</li>
+    <li style="color:white;">Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
+    <li style="color:white;">Keycloak minimizes non-administrative users access to the server admin console.</li>
+    <li style="color:white;">Keycloak is protected against brute force attacks.</li>
   </ul>
+<a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101"><strong>Lucidchart diagrams</strong>   </a>
 </span>
     
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
@@ -61,7 +58,7 @@ class: middle
 <span style="color:white">
   <strong>Security Requirements</strong>
   <ul>
-    <li>To be completed by Chet</li>
+    <li style="color:white;">To be completed by Chet</li>
   </ul>
 </span>
 
@@ -73,7 +70,7 @@ class: middle
 <span style="color:white">
   <strong>Code Review</strong>
   <ul>
-    <li>To be completed by Glenn</li>
+    <li style="color:white;">To be completed by Glenn</li>
   </ul>
 </span>  
 
@@ -85,7 +82,7 @@ class: middle
 <span style="color:white">
   <strong>Contributions</strong>
   <ul>
-    <li>Content TBD</li>
+    <li style="color:white;">Content TBD</li>
   </ul>
 </span>
 
