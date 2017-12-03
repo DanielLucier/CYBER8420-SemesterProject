@@ -67,9 +67,11 @@
         left: 10px;
       }
       .center-image{
-            position: absolute;
-            width: 100%;
-            top: 140px;
+           position: relative;
+            width: -webkit-fill-available;
+            height: fit-content;
+            top: 50px;
+            left: 0px;
       }
       .bottom-right{
         position: absolute;
@@ -80,7 +82,7 @@
       .bottom-left{
         position: absolute;
         width: 25%;
-        bottom: 5px;
+        bottom: 0px;
         left: 5px;
       }
       /* Two-column layout */
