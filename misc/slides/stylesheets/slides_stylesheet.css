@@ -29,7 +29,7 @@
       .large { font-size: 1.5em; }
       .small{ font-size:1em; }
       a, a > code {
-        color: silver;
+        color: aqua;
         font-size: 1.5em;
         text-decoration: none;
       }
