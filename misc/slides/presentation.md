@@ -91,15 +91,6 @@ class: middle
 ---
 class: center, middle
 
-<span style="color:white">
-  <font size="+10"><strong>Questions?</strong></font>
-</span>
-
-.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
-
----
-class: center, middle
-
 .center-image[![questions](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/questions.png)]
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
