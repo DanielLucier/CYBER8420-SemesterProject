@@ -1,3 +1,4 @@
+<span style="color:white">
 class: center, middle  
   # <br><br><br><strong>Open Source Identity and Access Management</strong>
   <br><br><br>Cyber Wardens
@@ -77,7 +78,7 @@ class: center, middle
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
-
+</span>
     
 
 
