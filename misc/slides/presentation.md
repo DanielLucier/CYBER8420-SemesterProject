@@ -92,7 +92,7 @@ class: middle
 class: center, middle
 
 <span style="color:white">
-  <font size="+5"><strong>Questions?</strong></font>
+  <font size="+10"><strong>Questions?</strong></font>
 </span>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
