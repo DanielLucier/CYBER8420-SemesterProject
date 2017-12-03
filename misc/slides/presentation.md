@@ -92,6 +92,7 @@ class: middle
 class: center, middle
 
 <span style="color:white">
+  font-size: 5em;
   <strong>Questions?</strong>
 </span>
 
