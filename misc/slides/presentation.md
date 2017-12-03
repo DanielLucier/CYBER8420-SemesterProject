@@ -100,7 +100,7 @@ class: center, middle
 ---
 class: center, middle
 
-.center-image[![questions](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/questions.jpg)]
+.center-image[![questions](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/questions.png)]
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
