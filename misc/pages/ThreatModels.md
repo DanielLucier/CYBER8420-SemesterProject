@@ -23,7 +23,7 @@ Summary of Security Related Issues Identified in Keycloak's Software Design
 
 &emsp;<a href="http://www.keycloak.org/docs/3.3/server_admin/topics/threat.html"><strong>Section 3.19, Threat Model Mitigation,</strong></a> of Keycloak's documentation discusses possible security vulnerabilities that could be encountered by any authentication server and provides mitigation strategies to address the vulnerabilities. According to <a href = "http://www.keycloak.org/docs/3.3/server_admin/topics/threat/csrf.html"><strong>the CSRF section</strong></a>, a possible CSRF vulnerability is identified, and a mitigation strategy is provided:
 
-<p style="margin-left:.5in">"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action links. This query or form parameter is checked against the state cookie to verify that the call was made by the user."</p>
+<blockquote>"The only part of Keycloak that really falls into CSRF is the user account management pages. To mitigate this Keycloak sets a state cookie and also embeds the value of this state cookie within hidden form fields or query parameters in action links. This query or form parameter is checked against the state cookie to verify that the call was made by the user."</blockquote>
 
 
 
