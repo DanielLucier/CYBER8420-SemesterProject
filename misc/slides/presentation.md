@@ -135,7 +135,7 @@ class: middle
 ---
 class: center, middle
 
-<strong>Glenn's photo</strong>
+.center-image[![SonarFindings](https://daniellucier.github.io/CYBER8420-SemesterProject/CodeAnalysis/SonarKeyCloakFindings.PNG)]
 
 ---
 class: center, middle
