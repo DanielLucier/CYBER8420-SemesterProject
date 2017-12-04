@@ -158,11 +158,14 @@ class: center, middle
 
 ---
 class: middle
+???
+Law of Demeter = principle of least knowledge
 
 <ul>
-  <li style="color:white;">Where would the most benefit come from?</li>
+  <li style="color:white;">Potential staring points:</li>
   <ul "list-style-type: circle">
     <li style="color:white;">218 "blockers" found using Sonar</li>
+    <li style="color:white;">Multiple "Law of Demeter" violations found using PMD</li>
   </ul>
   <li style="color:white;">Fear of changes</li>
   <ul "list-style-type: circle">
