@@ -33,12 +33,20 @@ class: center, middle
 ---
 class: middle
 
-<span style="color:white">
-  <strong>Project Description</strong>
   <ul>
-    <li style="color:white;">To be completed by Kero</li>
+    <li style="color:white;">Open source Identity and Access Management solution</li>
+    <li style="color:white;">Single-Sign On</li>
+    <ul "list-style-type: circle">
+      <li style="color:white;">Authenticate to Keycloak rather than individual applications</li>
+    </ul>
+    <li style="color:white;">Provides Kerberos bridge (utilized for workstations LDAP or active directory)</li>
+    <li style="color:white;">Integrates not just internally but externally via social login (github, facebook, google, twitter, OpenID)</li>
+    <li style="color:white;">Built in security controls</li>
+    <ul "list-style-type: circle">
+      <li style="color:white;">Bruteforce protection</li>
+      <li style="color:white;">Clickjacking protection</li>
+    </ul>
   </ul>
-</span>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
