@@ -32,7 +32,7 @@ class: center, middle
 
 ---
 class: middle
-  <br><br>
+  <br>
   <ul>
     <li style="color:white;">Open source identity and access management solution</li>
     <li style="color:white;">Single-Sign On</li>
@@ -94,6 +94,7 @@ class: middle
 ---
 class: middle
 
+<br>
 <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a>
 <ul>
   <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
