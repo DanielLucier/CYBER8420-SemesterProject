@@ -158,8 +158,6 @@ class: center, middle
 
 ---
 class: middle
-???
-Law of Demeter = principle of least knowledge
 
 <ul>
   <li style="color:white;">Potential staring points:</li>
