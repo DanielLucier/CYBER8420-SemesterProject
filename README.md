@@ -1,8 +1,9 @@
 CYBER8420 - Software Assurance
 ============================
-# Fall 2017 - University of Nebraska at Omaha - Semester Team Project
-# <br>Team: Glenn Anderson - Chet Cyr - Kero Lotfy - Dan Lucier
-# <br> Team Website: https://github.com/DanielLucier/CYBER8420-SemesterProject
+<strong>Fall 2017 - University of Nebraska at Omaha - Semester Team Project
+<br>Team: Glenn Anderson - Chet Cyr - Kero Lotfy - Dan Lucier
+<br> Team Website: https://github.com/DanielLucier/CYBER8420-SemesterProject
+</strong>
 
 We, Cyber Wardens, analyzed Keycloak v3.3.0 for secure software design practices.
 
