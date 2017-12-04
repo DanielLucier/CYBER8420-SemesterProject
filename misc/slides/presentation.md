@@ -32,7 +32,7 @@ class: center, middle
 
 ---
 class: middle
-  <br><br><br>
+  <br><br>
   <ul>
     <li style="color:white;">Open source identity and access management solution</li>
     <li style="color:white;">Single-Sign On</li>
@@ -84,27 +84,25 @@ class: center, middle
 ---
 class: middle
 
+<a href="https://www.lucidchart.com/documents/edit/e31604af-862d-434b-a74c-e7850cc35a5d/0?shared=true&"><strong>Misuse Cases</strong></a>
 <ul>
-  <li><a href="https://www.lucidchart.com/documents/edit/e31604af-862d-434b-a74c-e7850cc35a5d/0?shared=true&"><strong>Misuse Cases</strong></a></li>
-  <ul "list-style-type: circle">
-    <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1.</li>
-    <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2.</li>
-    <li style="color:white;">Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4.</li>
-    <li style="color:white;">Misuse Case 4 elaborates on Assurance Case 5.</li>
-  </ul>
+  <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1.</li>
+  <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2.</li>
+  <li style="color:white;">Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4.</li>
+  <li style="color:white;">Misuse Case 4 elaborates on Assurance Case 5.</li>
+</ul>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
+
+<a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a>
 <ul>
-  <li><a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a></li>
-  <ul "list-style-type: circle">
-    <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
-    <li style="color:white;"All I/O should be scrubbed for any code that would negatively affect the Authentication Request/Response.</li> 
-    <li style="color:white;"The Keycloak community has worked on securing the data flow between the process and the external interactor.</li>
-    <li style="color:white;"The community has shown that the SSL/HTTPS mode mitigates spoofing attempts.</li>
-  </ul>
+  <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
+  <li style="color:white;">All I/O should be scrubbed for any code that would negatively affect the Authentication Request/Response.</li> 
+  <li style="color:white;">The Keycloak community has worked on securing the data flow between the process and the external interactor.</li>
+  <li style="color:white;">The community has shown that the SSL/HTTPS mode mitigates spoofing attempts.</li>
 </ul>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
