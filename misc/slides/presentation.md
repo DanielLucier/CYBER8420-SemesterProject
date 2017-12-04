@@ -137,6 +137,8 @@ class: center, middle
 
 .center-image[![SonarFindings](https://daniellucier.github.io/CYBER8420-SemesterProject/CodeAnalysis/SonarKeyCloakFindings.PNG)]
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: center, middle
 
