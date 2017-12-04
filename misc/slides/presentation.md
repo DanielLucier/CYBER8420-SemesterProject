@@ -51,6 +51,13 @@ class: middle
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
+class: center, middle
+
+<span style="color:white">
+  <strong>Assurance Claims</strong>
+</span>
+
+---
 class: middle
 
 <span style="color:white">  
@@ -68,38 +75,86 @@ class: middle
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
-class: middle
+class: center, middle
 
 <span style="color:white">
   <strong>Security Requirements</strong>
-  <ul>
-    <li style="color:white;">To be completed by Chet</li>
-  </ul>
 </span>
+
+---
+class: middle
+
+<ul>
+  <li><a href="https://www.lucidchart.com/documents/edit/e31604af-862d-434b-a74c-e7850cc35a5d/0?shared=true&"><strong>Misuse Cases</strong></a></li>
+  <ul "list-style-type: circle">
+    <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1</li>
+    <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2</li>
+    <li style="color:white;">Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4</li>
+    <li style="color:white;">Misuse Case 4 elaborates on Assurance Case 5</li>
+  </ul>
+    <li><a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a></li>
+  <ul "list-style-type: circle">
+    <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
+    <li style="color:white;"All I/O should be scrubbed for any code that would negatively affect the Authentication Request/Response.</li> 
+    <li style="color:white;"The Keycloak community has worked on securing the data flow between the process and the external interactor.</li>
+    <li style="color:white;"The community has shown that the SSL/HTTPS mode mitigates spoofing attempts.</li>
+  </ul>
+</ul>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
-class: middle
+class: center, middle
 
 <span style="color:white">
   <strong>Code Review</strong>
-  <ul>
-    <li style="color:white;">To be completed by Glenn</li>
-  </ul>
-</span>  
-
-.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+</span>
 
 ---
 class: middle
 
+<ul>
+  <li style="color:white;">Based on Risk based review</li>
+  <li style="color:white;">Automatic Static Review</li>
+   <ul "list-style-type: circle">
+     <li style="color:white;">Sonar</li>
+     <li style="color:white;">PMD</li>
+  </ul>
+  <li style="color:white;">Manual code review</li>
+  <ul "list-style-type: circle">
+    <li style="color:white;">Based on known CVE’s</li>
+    <li style="color:white;">Reviewed the code changes that were implemented to fix the CVE’s</li>
+  </ul>
+</ul>
+  
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
+---
+class: center, middle
+
+<strong>Glenn's photo</strong>
+
+---
+class: center, middle
+
 <span style="color:white">
   <strong>Contributions</strong>
-  <ul>
-    <li style="color:white;">Content TBD</li>
-  </ul>
 </span>
+
+---
+class: middle
+
+<ul>
+  <li style="color:white;">Where would the most benefit come from?</li>
+  <ul "list-style-type: circle">
+    <li style="color:white;">218 blocker found using Sonar</li>
+  </ul>
+  <li style="color:white;">Fear of changes</li>
+  <ul "list-style-type: circle">
+    <li style="color:white;">255 unit tests</li>
+    <li style="color:white;">0% Code Coverage</li>
+  </ul>
+</ul>
 
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
