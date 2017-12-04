@@ -10,8 +10,8 @@ The presentation requirements included:
   <li>Contributions to the original project (documentation, design changes, code changes, communications)</li>
 </ul>
 
-<a href="https://docs.google.com/a/unomaha.edu/presentation/d/1rxFVBJNCdmjtaZ_KYN-rRjJgsfAIgFrORqceSy-MW3M/edit?usp=sharing">Link to Google docs slideshow</a>
+<a href="https://docs.google.com/a/unomaha.edu/presentation/d/1rxFVBJNCdmjtaZ_KYN-rRjJgsfAIgFrORqceSy-MW3M/edit?usp=sharing">Link to Google docs slideshow.</a>
 
-<a href="">Link to final HTML presentation</a>
+<a href="https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/presentation.html">Link to final HTML presentation.</a>
 
   
