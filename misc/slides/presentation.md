@@ -26,7 +26,9 @@ class: middle
 ---
 class: center, middle
 
-<strong>Project Description</strong>
+<span style="color:white">
+  <strong>Project Description</strong>
+</span>
 
 ---
 class: middle
