@@ -24,6 +24,11 @@ class: middle
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
+class: center, middle
+
+<strong>Project Description</strong>
+
+---
 class: middle
 
 <span style="color:white">
