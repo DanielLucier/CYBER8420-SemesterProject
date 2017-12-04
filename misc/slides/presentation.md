@@ -67,7 +67,7 @@ class: middle
   <li style="color:white;">Keycloak minimizes non-administrative users access to the server admin console.</li>
   <li style="color:white;">Keycloak is protected against brute force attacks.</li>
 </ul>
-<a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101"><strong>Lucidchart diagrams</strong>   </a>
+<a href="https://www.lucidchart.com/documents/view/ba3f2ae5-7929-458f-850b-925295860062"><strong>Lucidchart diagrams</strong>   </a>
     
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
