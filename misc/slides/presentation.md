@@ -60,13 +60,14 @@ class: center, middle
 ---
 class: middle
 
-<ul>
+<br>
+<ol>
   <li style="color:white;">User credentials are transmitted to third party applications over secure channels.</li>
   <li style="color:white;">Stored user credentials are protected from unauthorized access.</li>
   <li style="color:white;">Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
   <li style="color:white;">Keycloak minimizes non-administrative users access to the server admin console.</li>
   <li style="color:white;">Keycloak is protected against brute force attacks.</li>
-</ul>
+</ol>
 <a href="https://www.lucidchart.com/documents/view/ba3f2ae5-7929-458f-850b-925295860062"><strong>Lucidchart diagrams</strong>   </a>
     
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
@@ -94,7 +95,7 @@ class: middle
 ---
 class: middle
 
-<br>
+<br><br>
 <a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a>
 <ul>
   <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
