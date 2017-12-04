@@ -60,17 +60,14 @@ class: center, middle
 ---
 class: middle
 
-<span style="color:white">  
-  <br><strong>Assurance Claims</strong>
-  <ul>
-    <li style="color:white;">User credentials are transmitted to third party applications over secure channels.</li>
-    <li style="color:white;">Stored user credentials are protected from unauthorized access.</li>
-    <li style="color:white;">Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
-    <li style="color:white;">Keycloak minimizes non-administrative users access to the server admin console.</li>
-    <li style="color:white;">Keycloak is protected against brute force attacks.</li>
-  </ul>
+<ul>
+  <li style="color:white;">User credentials are transmitted to third party applications over secure channels.</li>
+  <li style="color:white;">Stored user credentials are protected from unauthorized access.</li>
+  <li style="color:white;">Sanitizing the input values from adding a new user minimizes the possibility of maliciously affecting Keycloak.</li>
+  <li style="color:white;">Keycloak minimizes non-administrative users access to the server admin console.</li>
+  <li style="color:white;">Keycloak is protected against brute force attacks.</li>
+</ul>
 <a href="https://www.lucidchart.com/publicSegments/view/39ce77f1-63e7-4138-81f1-7afa1fd69101"><strong>Lucidchart diagrams</strong>   </a>
-</span>
     
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
