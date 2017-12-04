@@ -81,7 +81,7 @@ class: center, middle
 ---
 class: middle
 
-<a href="https://www.lucidchart.com/documents/edit/e31604af-862d-434b-a74c-e7850cc35a5d/0?shared=true&"><strong>Misuse Cases</strong></a>
+<a href="https://www.lucidchart.com/documents/view/e31604af-862d-434b-a74c-e7850cc35a5d"><strong>Misuse Cases</strong></a>
 <ul>
   <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1.</li>
   <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2.</li>
