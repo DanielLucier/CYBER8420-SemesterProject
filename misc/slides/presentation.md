@@ -30,6 +30,8 @@ class: center, middle
   <strong>Project Description</strong>
 </span>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
   <br>
@@ -57,6 +59,8 @@ class: center, middle
   <strong>Assurance Claims</strong>
 </span>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
 
@@ -78,6 +82,8 @@ class: center, middle
 <span style="color:white">
   <strong>Security Requirements</strong>
 </span>
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
@@ -113,6 +119,8 @@ class: center, middle
   <strong>Code Review</strong>
 </span>
 
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
 ---
 class: middle
 
@@ -145,6 +153,8 @@ class: center, middle
 <span style="color:white">
   <strong>Contributions</strong>
 </span>
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ---
 class: middle
