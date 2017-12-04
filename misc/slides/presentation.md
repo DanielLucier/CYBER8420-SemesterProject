@@ -162,7 +162,7 @@ class: middle
 <ul>
   <li style="color:white;">Where would the most benefit come from?</li>
   <ul "list-style-type: circle">
-    <li style="color:white;">218 "blocker" found using Sonar</li>
+    <li style="color:white;">218 "blockers" found using Sonar</li>
   </ul>
   <li style="color:white;">Fear of changes</li>
   <ul "list-style-type: circle">
