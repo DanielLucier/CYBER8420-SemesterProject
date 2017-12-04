@@ -32,18 +32,18 @@ class: center, middle
 
 ---
 class: middle
-
+  <br><br><br>
   <ul>
-    <li style="color:white;">Open source Identity and Access Management solution</li>
+    <li style="color:white;">Open source identity and access management solution</li>
     <li style="color:white;">Single-Sign On</li>
     <ul "list-style-type: circle">
       <li style="color:white;">Authenticate to Keycloak rather than individual applications</li>
     </ul>
     <li style="color:white;">Provides Kerberos bridge (utilized for workstations LDAP or active directory)</li>
-    <li style="color:white;">Integrates not just internally but externally via social login (github, facebook, google, twitter, OpenID)</li>
+    <li style="color:white;">Integrates not just internally but externally via social login (GitHub, Facebook, Google, Twitter, OpenID)</li>
     <li style="color:white;">Built in security controls</li>
     <ul "list-style-type: circle">
-      <li style="color:white;">Bruteforce protection</li>
+      <li style="color:white;">Brute force protection</li>
       <li style="color:white;">Clickjacking protection</li>
     </ul>
   </ul>
@@ -87,12 +87,18 @@ class: middle
 <ul>
   <li><a href="https://www.lucidchart.com/documents/edit/e31604af-862d-434b-a74c-e7850cc35a5d/0?shared=true&"><strong>Misuse Cases</strong></a></li>
   <ul "list-style-type: circle">
-    <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1</li>
-    <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2</li>
-    <li style="color:white;">Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4</li>
-    <li style="color:white;">Misuse Case 4 elaborates on Assurance Case 5</li>
+    <li style="color:white;">Misuse Case 1 elaborates on Assurance Case 1.</li>
+    <li style="color:white;">Misuse Case 2 elaborates on Assurance Case 2.</li>
+    <li style="color:white;">Misuse Case 3 elaborates on the combination of Assurance Cases 3 and 4.</li>
+    <li style="color:white;">Misuse Case 4 elaborates on Assurance Case 5.</li>
   </ul>
-    <li><a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a></li>
+
+.bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
+
+---
+class: middle
+<ul>
+  <li><a href="https://daniellucier.github.io/CYBER8420-SemesterProject/ThreatModels/TMT2016Docs/Keycloak-Threat-Model.htm"><strong>Threat Models</strong></a></li>
   <ul "list-style-type: circle">
     <li style="color:white;">Since Keycloak cannot ensure the security of each of the external interactors, a single trust boundary has been placed around the Keycloak process to fully protect the main process.</li>
     <li style="color:white;"All I/O should be scrubbed for any code that would negatively affect the Authentication Request/Response.</li> 
@@ -114,8 +120,8 @@ class: center, middle
 class: middle
 
 <ul>
-  <li style="color:white;">Based on Risk based review</li>
-  <li style="color:white;">Automatic Static Review</li>
+  <li style="color:white;">Based on risk based review</li>
+  <li style="color:white;">Automatic static review</li>
    <ul "list-style-type: circle">
      <li style="color:white;">Sonar</li>
      <li style="color:white;">PMD</li>
@@ -147,7 +153,7 @@ class: middle
 <ul>
   <li style="color:white;">Where would the most benefit come from?</li>
   <ul "list-style-type: circle">
-    <li style="color:white;">218 blocker found using Sonar</li>
+    <li style="color:white;">218 "blocker" found using Sonar</li>
   </ul>
   <li style="color:white;">Fear of changes</li>
   <ul "list-style-type: circle">
