@@ -5,7 +5,7 @@ CYBER8420 - Software Assurance
 <br> Team Website: https://daniellucier.github.io/CYBER8420-SemesterProject
 </strong>
 
-We, Cyber Wardens, analyzed Keycloak v3.3.0 for secure software design practices.
+We, Cyber Wardens, analyzed Keycloak for secure software design practices.
 
 Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/projects/1">Project Kanban Board</a></strong> for an overview of tasks.
 
@@ -17,7 +17,7 @@ Refer to the <strong><a href="https://github.com/DanielLucier/CYBER8420-Semester
 
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/MisuseCases">MisuseCases</a></strong> contains a misuse case we developed for each top level claim (refer to AssuranceCases).
 
-<strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/RequirementsReport">RequirementsReport</a></strong> contains a report that lists our final assurance claims, a bulleted list of security requirements captured through our misuse case diagrams, and review of project documentation.
+<strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/RequirementsReport">RequirementsReport</a></strong> contains a report that lists our final assurance claims, a bulleted list of security requirements captured through our misuse case diagrams, and review of project documentation (v3.3.0).
 
 
 <strong><a href="https://github.com/DanielLucier/CYBER8420-SemesterProject/tree/master/ThreatModels">ThreatModels</a></strong> contains reports generated from Microsoft's Threat Modeling Tool 2016 and a summary of security issues related to Keycloak.
