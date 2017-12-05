@@ -181,9 +181,9 @@ class: middle
 .bottom-left[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
 
 ???
-Blocker (Sonar) = <a href="https://docs.sonarqube.org/display/SONAR/Issues>.red["Bug with a high probability to impact the behavior of the application in production: memory leak, unclosed JDBC connection, .... The code MUST be immediately fixed."]</a>
+Blocker (Sonar) = <a href="https://docs.sonarqube.org/display/SONAR/Issues">.red["Bug with a high probability to impact the behavior of the application in production: memory leak, unclosed JDBC connection, .... The code MUST be immediately fixed."]</a>
 
-Law of Demeter (PMD) = Principle of Least Knowledge, <a href="http://pmd.sourceforge.net/pmd-5.0.1/rules/java/coupling.html>.red["It helps to reduce coupling between classes or objects."]</a>
+Law of Demeter (PMD) = Principle of Least Knowledge, <a href="http://pmd.sourceforge.net/pmd-5.0.1/rules/java/coupling.html">.red["It helps to reduce coupling between classes or objects."]</a>
 ---
 class: center, middle
 
