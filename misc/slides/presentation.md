@@ -5,7 +5,9 @@ class: center, middle
 
   
 .top-center-logo[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
-.bottom-left[![image-source]Keycloak logo images retreived from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjr9JilhPPXAhWr7IMKHU4YBVsQjB0IBg&url=http%3A%2F%2Fwww.keycloak.org%2F&psig=AOvVaw0GUUBPj47YKzf1OEQsXPnc&ust=1512568872641840]
+.footnote[
+\* Keycloak logo images retreived from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjr9JilhPPXAhWr7IMKHU4YBVsQjB0IBg&url=http%3A%2F%2Fwww.keycloak.org%2F&psig=AOvVaw0GUUBPj47YKzf1OEQsXPnc&ust=1512568872641840
+]
 
 ---
 class: middle
