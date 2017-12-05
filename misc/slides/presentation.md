@@ -9,7 +9,7 @@ class: center, middle
 \* See notes for logo image source
 ]
 ???
-Keycloak logo images retrieved from: .red[https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjr9JilhPPXAhWr7IMKHU4YBVsQjB0IBg&url=http%3A%2F%2Fwww.keycloak.org%2F&psig=AOvVaw0GUUBPj47YKzf1OEQsXPnc&ust=1512568872641840]
+Keycloak logo images retrieved from: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjr9JilhPPXAhWr7IMKHU4YBVsQjB0IBg&url=http%3A%2F%2Fwww.keycloak.org%2F&psig=AOvVaw0GUUBPj47YKzf1OEQsXPnc&ust=1512568872641840
 
 ---
 class: middle
@@ -167,8 +167,8 @@ class: middle
   <ul "list-style-type: circle">
     <li style="color:white;">218 "blockers" found using Sonar</li>
     <li style="color:white;">Multiple "Law of Demeter" violations found using PMD</li>
-    <ul "list-syle-type: square">
-      <li style="color:white;">.small[See notes for definitions]</li>
+    <ul "list-syle-type: circle">
+      <li style="color:white;">See notes for definitions</li>
     </ul>
   </ul>
   <li style="color:white;">Fear of changes</li>
