@@ -1,7 +1,7 @@
 class: center, middle 
 
-  <br><br><br><strong><style="color:aqua;">Cyber Wardens</strong>
-  <br><br><style="color:white;">Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
+  <br><br><br><strong><span style="color:aqua;">Cyber Wardens</strong></span>
+  <br><br><span style="color:white;">Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson</span>
 
   
 .top-center-logo[![logo](https://daniellucier.github.io/CYBER8420-SemesterProject/misc/slides/images/keycloak_logo.png)]
