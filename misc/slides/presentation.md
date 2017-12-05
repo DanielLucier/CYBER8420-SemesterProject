@@ -1,6 +1,6 @@
 class: center, middle 
 
-  <br><br><br><strong><span style="color:aqua;">Cyber Wardens</strong></span>
+  <br><br><br><strong><span style="color:aqua;">.large[Cyber Wardens]</strong></span>
   <br><br><span style="color:white;">Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson</span>
 
   
