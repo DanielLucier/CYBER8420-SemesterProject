@@ -1,8 +1,7 @@
 class: center, middle 
 
 <span style="color:white">
-  <br><br><br><strong>Open Source Identity and Access Management</strong>
-  <br><br><br>Cyber Wardens
+  <br><br><br><strong><style="color:aqua;">Cyber Wardens</strong>
   <br><br>Kero Lotfy, Dan Lucier, Chet Cyr, Glenn Anderson
 </span>
   
